@@ -2119,11 +2119,28 @@
     
 
 
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joaquin_Phoenix -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joaquin_Phoenix">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joker"/>
+        <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Mejor_Actor_Principal_2019"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">173</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadunidense</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joaquin Phoenix</nombre_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joker -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joker">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
         <es_del_genero rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_crimen"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joaquin_Phoenix"/>
         <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
         <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
         <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warner Bros</compania_productora>
@@ -2135,6 +2152,23 @@
         <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">En Gotham City, el comediante con problemas mentales Arthur Fleck es ignorado y maltratado por la sociedad. Luego se embarca en una espiral descendente de revolución y crímenes sangrientos. Este camino lo pone cara a cara con su alter ego: el Joker.</sinopsis>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joker</titulo>
         <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joker</titulo_original>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Mejor_Actor_Principal_2019 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Mejor_Actor_Principal_2019">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actor"/>
+        <se_premio_a rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joaquin_Phoenix"/>
+        <anio rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</anio>
+        <descripcion_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Premio Oscar Mejor Actor Principal 2019</descripcion_premio>
+        <es_protagonista_de_la_pelicula rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</es_protagonista_de_la_pelicula>
+        <ganador rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ganador>
+        <ha_sido_ganador_anteriormente rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ha_sido_ganador_anteriormente>
+        <nombre_academia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Academia de Artes y Ciencias Cinematográficas de Estados Unidos</nombre_academia>
+        <nombre_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mejor Actor Principal</nombre_premio>
+        <tipo_mejor_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mejor actor principal</tipo_mejor_actor>
     </owl:NamedIndividual>
     
 
