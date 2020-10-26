@@ -1,0 +1,2196 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#"
+     xml:base="http://www.semanticweb.org/daniel/ontologies/2020/9/movies"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#actua_en -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#actua_en">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#protagonizada_por"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_del_genero -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_del_genero">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_el_genero_de"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Generos"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_el_genero_de -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_el_genero_de">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Generos"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#gano -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#gano">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#se_premio_a"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premios"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premios"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#protagonizada_por -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#protagonizada_por">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#se_premio_a -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#se_premio_a">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premios"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#altura -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#altura">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#anio -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#anio">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premios"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#anio_de_guerra -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#anio_de_guerra">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Guerra"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#apta_para_todo_publico -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#apta_para_todo_publico">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#basada_en_hechos_reales -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#basada_en_hechos_reales">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Drama"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Guion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#base_cientifica -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#base_cientifica">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Ciencia_ficcion"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>blanda</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>dura</rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#cantan_los_mismos_actores -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#cantan_los_mismos_actores">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Musical"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#clasificacion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#clasificacion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>G</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>NC-17</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>NR</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>PG</rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first>PG-13</rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first>R</rdf:first>
+                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#compania_productora -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#compania_productora">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#descripcion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#descripcion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Generos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#descripcion_premio -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#descripcion_premio">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premios"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#director -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#director">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#duracion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#duracion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#edad -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#edad">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_americana -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_americana">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Pelicula"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_apocaliptica -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_apocaliptica">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Ciencia_ficcion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_biografico -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_biografico">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Deportes"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Musical"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_comedia_animada -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_comedia_animada">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Comedia"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_comedia_fisica -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_comedia_fisica">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Comedia"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_emotiva -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_emotiva">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Drama"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_futurista -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_futurista">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Ciencia_ficcion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_mito -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_mito">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Terror"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_protagonista_de_la_pelicula -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_protagonista_de_la_pelicula">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actor"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actriz"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_satirica -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_satirica">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Comedia"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_tragico -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_tragico">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Drama"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Romance"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#escenas_sangrientas -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#escenas_sangrientas">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Terror"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#explosiones -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#explosiones">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Accion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#fecha_estreno -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#fecha_estreno">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#final_feliz -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#final_feliz">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Drama"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#ganador -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#ganador">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premios"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#genero_musical -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#genero_musical">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Musical"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>country</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>hip-hop</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>jazz</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>pop</rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first>rap</rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first>reggaeton</rdf:first>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                        <rdf:first>rock</rdf:first>
+                                                                        <rdf:rest>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                                <rdf:first>soul</rdf:first>
+                                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                            </rdf:Description>
+                                                                        </rdf:rest>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#ha_sido_ganador_anteriormente -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#ha_sido_ganador_anteriormente">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actor"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actriz"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Director"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#idioma_original -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#idioma_original">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#lugar_aventura -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#lugar_aventura">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Aventura"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#lugar_de_los_acontecimientos -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#lugar_de_los_acontecimientos">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Ciencia_ficcion"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Terror"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#nacionalidad -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#nacionalidad">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#nombre_academia -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#nombre_academia">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premios"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#nombre_actor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#nombre_actor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#nombre_compositor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#nombre_compositor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Sonido"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#nombre_de_guerra -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#nombre_de_guerra">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Guerra"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#nombre_genero -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#nombre_genero">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Generos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#nombre_premio -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#nombre_premio">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premios"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#pais_origen -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#pais_origen">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#paises_involucrados -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#paises_involucrados">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Guerra"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#participan_las_fuerzas_del_orden -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#participan_las_fuerzas_del_orden">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Crimen"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#persecusiones -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#persecusiones">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Accion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#personajes_antagonicos -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#personajes_antagonicos">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Crimen"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>asesino</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>banda criminal</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>gansters</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>ladrones</rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#peso -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#peso">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#proposito_de_aventura -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#proposito_de_aventura">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Aventura"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#sexo_actor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#sexo_actor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>femenino</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>masculino</rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#sinopsis -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#sinopsis">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#subgenero_accion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#subgenero_accion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Accion"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>artes marciales</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>disaster</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>epica</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>espias</rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first>superheroes</rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first>thriller</rdf:first>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                        <rdf:first>video juegos</rdf:first>
+                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#subgenero_aventura -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#subgenero_aventura">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Aventura"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>biblico</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>dramatico</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>historico</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>policiaco</rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#subgenero_crimen -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#subgenero_crimen">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Crimen"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>detectives</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>gansters</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>legales</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#subgenero_romance -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#subgenero_romance">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Romance"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>chick flick</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>comedia</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>drama</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>thriller</rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#subgenero_terror -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#subgenero_terror">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Terror"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>camara en mano</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>gore</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>monstruos</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>paranormal</rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first>psicologico</rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first>slasher</rdf:first>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                        <rdf:first>survival</rdf:first>
+                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#subgenero_western -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#subgenero_western">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Western"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>empire</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>marshall</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>outlaw</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>revisionista</rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first>spaghetti</rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first>venganza</rdf:first>
+                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tema_documental -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tema_documental">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Documental"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tiene_asesinatos -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tiene_asesinatos">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Crimen"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tiene_bailes_o_coreografias -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tiene_bailes_o_coreografias">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Musical"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tiene_bandidos -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tiene_bandidos">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Western"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tiene_batallas -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tiene_batallas">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Accion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tiene_indios -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tiene_indios">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Western"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tiene_pistoleros -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tiene_pistoleros">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Western"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tiene_viajes_en_el_tiempo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tiene_viajes_en_el_tiempo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Ciencia_ficcion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tipo_animacion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tipo_animacion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Animacion"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>animacion 3D</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>captura de movimiento</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>cut out</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>go motion</rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first>stop motion</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tipo_de_criatura_fantastica -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tipo_de_criatura_fantastica">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Fantasia"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>ave fenix</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>brujas</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>centauros</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>dragones</rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first>duendes</rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first>elfos</rdf:first>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                        <rdf:first>enanos</rdf:first>
+                                                                        <rdf:rest>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                                <rdf:first>hobbits</rdf:first>
+                                                                                <rdf:rest>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                                        <rdf:first>magos</rdf:first>
+                                                                                        <rdf:rest>
+                                                                                            <rdf:Description>
+                                                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                                                <rdf:first>orcos</rdf:first>
+                                                                                                <rdf:rest>
+                                                                                                    <rdf:Description>
+                                                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                                                        <rdf:first>unicornios</rdf:first>
+                                                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                                                    </rdf:Description>
+                                                                                                </rdf:rest>
+                                                                                            </rdf:Description>
+                                                                                        </rdf:rest>
+                                                                                    </rdf:Description>
+                                                                                </rdf:rest>
+                                                                            </rdf:Description>
+                                                                        </rdf:rest>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tipo_de_exploracion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tipo_de_exploracion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Fantasia"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>exploracion circular</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>exploracion en espiral</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>exploracion lineal</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tipo_de_mundo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tipo_de_mundo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Fantasia"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>mundos alternativos</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>mundos frontera</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>mundos paralelos</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tipo_de_personaje_terrorifico -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tipo_de_personaje_terrorifico">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Terror"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>asesino serial</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>demoniaco</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>extraterrestre</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>fantasma</rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first>momias</rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first>mostruos</rdf:first>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                        <rdf:first>vampiros</rdf:first>
+                                                                        <rdf:rest>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                                <rdf:first>zombies</rdf:first>
+                                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                            </rdf:Description>
+                                                                        </rdf:rest>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tipo_de_personajes -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tipo_de_personajes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Animacion"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>animales</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>humanos</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>objetos animados</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tipo_deporte -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tipo_deporte">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Deportes"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>artes marciales</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>automovilistico</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>basket</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>boxeo</rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first>futbol</rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first>natacion</rdf:first>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                        <rdf:first>tenis</rdf:first>
+                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tipo_documental -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tipo_documental">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Documental"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>arqueologico</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>etnografico</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>historico</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>naturaleza</rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first>poetico</rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first>social</rdf:first>
+                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tipo_fantasia -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tipo_fantasia">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Fantasia"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>fantasia epica</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>fantasia oscura</rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tipo_mejor_actor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tipo_mejor_actor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actor"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>mejor acto drama</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>mejor actor comedia o musical</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>mejor actor de reparto</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>mejor actor principal</rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tipo_mejor_actriz -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tipo_mejor_actriz">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actriz"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>mejor actriz comedia o musical</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>mejor actriz de reparto</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>mejor actriz drama</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>mejor actriz principal</rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tipo_mejor_director -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tipo_mejor_director">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Director"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>mejor direccion en documental</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>mejor director</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>mejor primer direccion</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tipo_personaje_ciencia_ficcion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tipo_personaje_ciencia_ficcion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Ciencia_ficcion"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>extraterrestre</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>robots</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>superheroes</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>superhumano</rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first>viajero del tiempo</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tipo_premio_guion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tipo_premio_guion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Guion"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>mejor guion adaptado</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>mejor guion orignal</rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tipo_premio_pelicula -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tipo_premio_pelicula">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Pelicula"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>mejor pelicula</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>mejor pelicula animada</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>mejor pelicula comedia-musical</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>mejor pelicula dramatica</rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first>mejor pelicula extranjera</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tipo_premio_produccion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tipo_premio_produccion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Produccion"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>mejor diseno de produccion</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>mejor fotografia</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>mejor maquillaje y peinado</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>mejor montaje</rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first>mejores efectos visuales</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tipo_premio_sonido -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tipo_premio_sonido">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Sonido"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>mejor banda sonora</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>mejor cancion original</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>mejor mezcla de sonido</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>mejor sonido</rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#titulo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#titulo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#titulo_original -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#titulo_original">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Accion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Accion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Generos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premios"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#se_premio_a"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#actua_en"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#gano"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#gano"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actriz"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actriz -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actriz">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premios"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#se_premio_a"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Animacion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Animacion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Generos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Aventura -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Aventura">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Generos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Ciencia_ficcion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Ciencia_ficcion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Generos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Comedia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Comedia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Generos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Crimen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Crimen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Generos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Deportes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Deportes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Generos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Director -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Director">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premios"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#se_premio_a"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Documental -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Documental">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Generos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Drama -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Drama">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Generos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Fantasia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Fantasia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Generos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Generos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Generos">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_el_genero_de"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Guerra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Guerra">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Generos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Guion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Guion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premios"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#se_premio_a"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Musical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Musical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Generos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Pelicula -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Pelicula">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premios"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#se_premio_a"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_del_genero"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Generos"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#protagonizada_por"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#gano"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Director"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#gano"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Guion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#gano"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Pelicula"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#gano"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Produccion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#gano"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Sonido"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premios -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premios">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Produccion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Produccion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premios"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#se_premio_a"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Romance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Romance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Generos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Sonido -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Sonido">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premios"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#se_premio_a"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Terror -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Terror">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Generos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Western -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Western">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Generos"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_crimen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_crimen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Crimen"/>
+        <es_el_genero_de rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joker"/>
+        <descripcion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Usualmente al comienzo se ofrece al espectador los antecedentes de un grave crimen, acabando esta parte cuando efectivamente se comete dicho acto criminal y se arma el suspenso.</descripcion>
+        <nombre_genero rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crimen</nombre_genero>
+        <participan_las_fuerzas_del_orden rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</participan_las_fuerzas_del_orden>
+        <personajes_antagonicos rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asesino</personajes_antagonicos>
+        <subgenero_crimen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">detectives</subgenero_crimen>
+        <tiene_asesinatos rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tiene_asesinatos>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joker -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joker">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <es_del_genero rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_crimen"/>
+        <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
+        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
+        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warner Bros</compania_productora>
+        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Todd Phillips</director>
+        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">122</duracion>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-04T00:00:00</fecha_estreno>
+        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</idioma_original>
+        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</pais_origen>
+        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">En Gotham City, el comediante con problemas mentales Arthur Fleck es ignorado y maltratado por la sociedad. Luego se embarca en una espiral descendente de revolución y crímenes sangrientos. Este camino lo pone cara a cara con su alter ego: el Joker.</sinopsis>
+        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joker</titulo>
+        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joker</titulo_original>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Accion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Animacion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Aventura"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Ciencia_ficcion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Comedia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Crimen"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Deportes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Documental"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Drama"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Fantasia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Guerra"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Musical"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Romance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Terror"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Western"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actriz"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Director"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Guion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Pelicula"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Produccion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Sonido"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Generos"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premios"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
