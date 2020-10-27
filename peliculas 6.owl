@@ -13,6 +13,41 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#descripcion_premio -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#descripcion_premio"/>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#ganador -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#ganador"/>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#participan_las_fuerzas_del_orden -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#participan_las_fuerzas_del_orden"/>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tiene_asesinatos -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#tiene_asesinatos"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Object Properties
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -2164,6 +2199,23 @@
 
 
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_Drama -->
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Bridge_of_Spies -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Bridge_of_Spies">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tom_Hanks"/>
+        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steven Spielberg</director>
+        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">141</duracion>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-04T00:00:00</fecha_estreno>
+        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</idioma_original>
+        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La película narra los hechos sucedidos en Norteamérica en 1957 sobre la detención del espía ruso Rudolf Abel y su enjuiciamiento, de cuya defensa se encargó al abogado James B. Donovan y también el posterior incidente del U-2, ocurrido en 1960</sinopsis>
+        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El puente de los espías y Puente de espías</titulo>
+        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bridge of spies</titulo_original>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Call_Me_By_Your_Name -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_Drama">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Drama"/>
@@ -2184,6 +2236,21 @@
 
 
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_crimen -->
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Charlize_Theron -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Charlize_Theron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mad_Max_-_Fury_Road"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">177</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">44</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sudafrica</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Charlize Theron</nombre_actor>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</sexo_actor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Choi_Woo-shik -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_crimen">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Crimen"/>
@@ -2202,6 +2269,10 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Christian_Bale">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#El_Vicio_Del_Poder"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Ford_v_Ferrari"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#TheBigShort"/>
+        <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Cinematografico_Mejor_Actor_Comedia_2019"/>
         <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">183</altura>
         <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</edad>
         <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Britanico</nacionalidad>
@@ -2319,6 +2390,105 @@
 
 
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Actor_Principal_2016 -->
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_Ciencia_ficcion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_Ciencia_ficcion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Ciencia_ficcion"/>
+        <es_del_genero rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_Ciencia_ficcion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_Crimen_Asesino_Policias -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_Crimen_Asesino_Policias">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Crimen"/>
+        <es_del_genero rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joker"/>
+        <descripcion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genero crimen con antagonista asesino y participa la policia en su busqueda.</descripcion>
+        <nombre_genero rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crimen policiaco</nombre_genero>
+        <personajes_antagonicos rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asesino</personajes_antagonicos>
+        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El diseñador de automóviles estadounidense Carroll Shelby y el conductor Ken Miles luchan contra la interferencia corporativa y las leyes de la física para construir un automóvil de carreras revolucionario para Ford con el fin de derrotar a Ferrari en las 24 Horas de Le Mans en 1966.</sinopsis>
+        <subgenero_crimen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;asesinatos&quot;</subgenero_crimen>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_Drama -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_Drama">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Drama"/>
+        <es_del_genero rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Bridge_of_Spies"/>
+        <descripcion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El drama en el cine implica un filme donde se desarrolla a fondo la caracterización de los personajes, de una manera realista, y dejando aflorar sus emociones y sus sentimientos, lo que de una u otra forma genera conflictos entre ellos y aún consigo mismo, y/o con la sociedad, y/o con la propia naturaleza.</descripcion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_Guerra_Primera_Guerra_Mundial -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_Guerra_Primera_Guerra_Mundial">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Guerra"/>
+        <es_el_genero_de rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Dunkerque"/>
+        <es_el_genero_de rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#1917"/>
+        <anio_de_guerra rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1917</anio_de_guerra>
+        <nombre_de_guerra rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primera Guerra Mundial</nombre_de_guerra>
+        <nombre_genero rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genero guerra</nombre_genero>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_Superheroes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_Superheroes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Accion"/>
+        <es_el_genero_de rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Black_Panther"/>
+        <explosiones rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</explosiones>
+        <nombre_genero rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genero accion</nombre_genero>
+        <persecusiones rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</persecusiones>
+        <subgenero_accion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">superheroes</subgenero_accion>
+        <tiene_batallas rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tiene_batallas>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_accion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_accion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Accion"/>
+        <es_del_genero rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_accion"/>
+        <descripcion>El llamado cine de acción es un género cinematográfico donde prima la espectacularidad de las imágenes por medio de efectos especiales de estilo &quot;clásico&quot;.</descripcion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_comedia_drama -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_comedia_drama">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Comedia"/>
+        <es_el_genero_de rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Infiltrado_En_El_KKKlan"/>
+        <es_comedia_animada rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</es_comedia_animada>
+        <es_comedia_fisica rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</es_comedia_fisica>
+        <es_satirica rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</es_satirica>
+        <nombre_genero rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Comedia</nombre_genero>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_crimen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_crimen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Crimen"/>
+        <es_el_genero_de rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joker"/>
+        <descripcion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Usualmente al comienzo se ofrece al espectador los antecedentes de un grave crimen, acabando esta parte cuando efectivamente se comete dicho acto criminal y se arma el suspenso.</descripcion>
+        <nombre_genero rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crimen</nombre_genero>
+        <personajes_antagonicos rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asesino</personajes_antagonicos>
+        <subgenero_crimen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">detectives</subgenero_crimen>
+        <participan_las_fuerzas_del_orden rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</participan_las_fuerzas_del_orden>
+        <tiene_asesinatos rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tiene_asesinatos>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_drama_romantico -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Actor_Principal_2016">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actor"/>
@@ -2371,6 +2541,16 @@
 
 
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Samuel_L._Jackson -->
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_western -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_western">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Western"/>
+        <descripcion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wéstern es un extranjerismo adaptado al español e incorporado en el Diccionario de la lengua española de la Asociación de Academias de la Lengua Española. A estas obras cinematográficas también se las suele llamar películas de vaqueros.</descripcion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#George_MacKay -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Samuel_L._Jackson">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
@@ -2436,6 +2616,37 @@
         <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Durante una misión a Marte de la nave tripulada Ares III, una fuerte tormenta se desata, por lo que, tras haber dado por desaparecido y muerto al astronauta Mark Watney (Matt Damon), sus compañeros toman la decisión de irse; sin embargo, ha sobrevivido, pero está solo y con pocos recursos en el planeta</sinopsis>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marte: Misión rescate</titulo>
         <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Martian</titulo_original>
+        <es_del_genero rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_comedia_drama"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#John_David_Washington"/>
+        <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
+        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
+        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blumhouse Production &amp;&amp; Monkey Production &amp;&amp; QC Entertainment &amp;&amp; Perfect Worl Pictures</compania_productora>
+        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spike Lee</director>
+        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">128</duracion>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-14</fecha_estreno>
+        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ingles</idioma_original>
+        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</pais_origen>
+        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A principios de los años setenta, una época de gran agitación social con la encarnizada lucha por los derechos civiles como telón de fondo, Ron Stallworth se convierte en el primer agente negro del departamento de policía de Colorado Springs. Pero es recibido con escepticismo y hostilidad por los mandos y algunos de los agentes. Sin amedrentarse, decide seguir adelante y hacer algo por su comunidad llevando a cabo una misión muy peligrosa: infiltrarse en el Ku Klux Klan y exponerlo ante la ciudad.</sinopsis>
+        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infiltrado en el KKKlan</titulo>
+        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BLacKkKlansman</titulo_original>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joaquin_Phoenix -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joaquin_Phoenix">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joker"/>
+        <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Mejor_Actor_Principal_2019"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Zazie_Beetz"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">173</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadounidense</nacionalidad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadunidense</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joaquin Phoenix</nombre_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
     </owl:NamedIndividual>
     
 
@@ -2471,6 +2682,7 @@ Alpha Pictures</compania_productora>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joker">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
         <es_del_genero rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_Crimen_Asesino_Policias"/>
+        <es_del_genero rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_crimen"/>
         <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mejor_Banda_Sonora_2019"/>
         <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joaquin_Phoenix"/>
         <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Robert_De_Niro"/>
@@ -2479,6 +2691,7 @@ Alpha Pictures</compania_productora>
         <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warner Bros</compania_productora>
         <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Todd Phillips</director>
         <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">122</duracion>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-04T00:00:00</fecha_estreno>
         <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-25T00:00:00</fecha_estreno>
         <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</idioma_original>
         <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</pais_origen>
@@ -2486,6 +2699,189 @@ Alpha Pictures</compania_productora>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joker</titulo>
         <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joker</titulo_original>
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tom_Hanks -->
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Judy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Judy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Renée_Zellweger"/>
+        <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</apta_para_todo_publico>
+        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG-13</clasificacion>
+        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathé</compania_productora>
+        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rupert Goold</director>
+        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">118</duracion>
+        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</idioma_original>
+        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</pais_origen>
+        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La legendaria artista Judy Garland llega a Londres en el invierno de 1968 para realizar una serie de conciertos con entradas agotadas.</sinopsis>
+        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Judy</titulo>
+        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Judy</titulo_original>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Kurt_Russell -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Kurt_Russell">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#The_Hateful_Eight"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">180</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">69</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kurt Russell</nombre_actor>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</sexo_actor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#La_Favorita -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#La_Favorita">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Emma_Stone"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Olivia_Colman"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Rachel_Weisz"/>
+        <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
+        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
+        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Element Pictures &amp;&amp; Scarlet Films &amp;&amp; Film4 Productions &amp;&amp; Waypoint Entertainment</compania_productora>
+        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yorgos Lanthimos</director>
+        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">119</duracion>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-23</fecha_estreno>
+        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ingles</idioma_original>
+        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reino Unido &amp;&amp; USA</pais_origen>
+        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A principios del s. XVIII, Inglaterra está en guerra con Francia y la enfermiza reina Anne delega sus responsabilidades en su amiga Lady Sarah. La llegada de una sirvienta dotada de un talento especial, Abigail, pone en peligro la posición de Sarah.</sinopsis>
+        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Favorita</titulo>
+        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Favourite</titulo_original>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#La_forma_del_agua -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#La_forma_del_agua">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Sally_Hawkins"/>
+        <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
+        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
+        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Searchlight Pictures</compania_productora>
+        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guillermo del Toro</director>
+        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">123</duracion>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-12-08T00:00:00</fecha_estreno>
+        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</idioma_original>
+        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estados Unidos</pais_origen>
+        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baltimore, década de 1960. Elisa, muda desde que era un bebé, trabaja como limpiadora nocturna en un centro de investigación aeroespacial. Una noche, mientras está limpiando en un zona de alta seguridad, ve cómo llevan al laboratorio una cápsula con un extraño ser en su interior. Se trata de un hombre anfibio, del que se enamora. A partir de entonces, Elisa elabora un plan para liberar al mutante.</sinopsis>
+        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La forma del agua</titulo>
+        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The shape of water</titulo_original>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Lady_Bird -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Lady_Bird">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Saoirse_Ronan"/>
+        <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
+        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
+        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scott Rudin Productions</compania_productora>
+        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Greta gerwig</director>
+        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">93</duracion>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-12-25T00:00:00</fecha_estreno>
+        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ingles</idioma_original>
+        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estados Unidos</pais_origen>
+        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trama. Christine &quot;Lady Bird&quot; McPherson es una estudiante de 17 años que cursa el último año en una escuela secundaria católica en los suburbios de Sacramento, California, en 2002. Ella vive con sus padres, con quienes tiene una relación tensa, su hermano mayor, que es adoptado, y la novia de su hermano.</sinopsis>
+        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lady bird</titulo>
+        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lady Bird</titulo_original>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Lady_Gaga -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Lady_Gaga">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Ha_Nacido_Una_Estrella"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">155</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadounidense</nacionalidad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stefani Joanne Angelina Germanotta</nacionalidad>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femenino</sexo_actor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Leonardo_DiCaprio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Leonardo_DiCaprio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#The_Revenant"/>
+        <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Actor_Principal_2016"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">183</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">45</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leonardo DiCaprio</nombre_actor>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</sexo_actor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Lily_James -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Lily_James">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#El_instante_mas_oscuro"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">170</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">31</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Britanica</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lily Chloe Ninette Thomson</nombre_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#int">58</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenina</sexo_actor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Los_archivos_del_pentagono -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Los_archivos_del_pentagono">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Meryl_Streep"/>
+        <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
+        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG-13</clasificacion>
+        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amblin Entertainment</compania_productora>
+        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steven Spielberg</director>
+        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">115</duracion>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-14T00:00:00</fecha_estreno>
+        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</idioma_original>
+        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estados Unidos</pais_origen>
+        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">En 1971, los periodistas Katharine Graham y Ben Bradlee, del Washington Post, pusieron en riesgo sus carreras para luchar por la libertad de prensa, apoyar al The New York Times y exponer ante el público que el Gobierno estadounidense llevaba treinta años ocultando información.</sinopsis>
+        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Los oscuros secretos del pentagono</titulo>
+        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Post</titulo_original>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mad_Max_-_Fury_Road -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mad_Max_-_Fury_Road">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <es_del_genero rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_accion"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Charlize_Theron"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tom_Hardy"/>
+        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-14T00:00:00</fecha_estreno>
+        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</idioma_original>
+        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La película está ambientada en una futura y post-apocaliptica Tierra desierta, donde la gasolina y el agua son productos escasos. Sigue a Max Rockatansky (Tom Hardy), que se une a Imperator Furiosa (Charlize Theron) para huir del líder de culto Inmortal</sinopsis>
+        <subgenero_accion rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></subgenero_accion>
+        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mad Max: Furia en el camino</titulo>
+        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mad Max  Fury Road</titulo_original>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mahershala_Ali -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tom_Hanks">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
@@ -2519,10 +2915,15 @@ Alpha Pictures</compania_productora>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Matt_Damon">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
         <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Ford_v_Ferrari"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#The_Martian"/>
         <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">178</altura>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#string">178</altura>
         <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</edad>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50</edad>
         <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadounidense</nacionalidad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</nacionalidad>
         <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matt Damon</nombre_actor>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</sexo_actor>
         <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
     </owl:NamedIndividual>
     
@@ -2748,6 +3149,31 @@ Alpha Pictures</compania_productora>
     
 
 
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Actor_Principal_2016 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Actor_Principal_2016">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actor"/>
+        <se_premio_a rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Leonardo_DiCaprio"/>
+        <anio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2016</anio>
+        <nombre_academia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Academia de Artes y Ciencias Cinematográficas de Estados Unidos</nombre_academia>
+        <nombre_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Premio Oscar Mejor Actor principal</nombre_premio>
+        <tipo_mejor_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Principal</tipo_mejor_actor>
+        <descripcion_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Premio al mejor actor principal 2016</descripcion_premio>
+        <ganador rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ganador>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Guion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Guion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Guion"/>
+        <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#TheBigShort"/>
+        <tipo_premio_guion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Premio al mejor Guion del año en curso</tipo_premio_guion>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Mejor_Actor_Principal_2019 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Mejor_Actor_Principal_2019">
@@ -2759,6 +3185,8 @@ Alpha Pictures</compania_productora>
         <nombre_academia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Academia de Artes y Ciencias Cinematográficas de Estados Unidos</nombre_academia>
         <nombre_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mejor Actor Principal</nombre_premio>
         <tipo_mejor_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mejor actor principal</tipo_mejor_actor>
+        <descripcion_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Premio Oscar Mejor Actor Principal 2019</descripcion_premio>
+        <ganador rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ganador>
     </owl:NamedIndividual>
     
 
@@ -2891,6 +3319,20 @@ Alpha Pictures</compania_productora>
     
 
 
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Samuel_L._Jackson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Samuel_L._Jackson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#The_Hateful_Eight"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">189</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">72</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Samuel L. Jackson</nombre_actor>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</sexo_actor>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Saoirse_Ronan -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Saoirse_Ronan">
@@ -2919,6 +3361,88 @@ Alpha Pictures</compania_productora>
     
 
 
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#TheBigShort -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#TheBigShort">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <es_del_genero rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_accion"/>
+        <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Guion"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Christian_Bale"/>
+        <descripcion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El llamado cine de acción es un género cinematográfico donde prima la espectacularidad de las imágenes por medio de efectos especiales de estilo clásico.</descripcion>
+        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adam McKay</director>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-11-12T00:00:00</fecha_estreno>
+        <subgenero_accion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">accion</subgenero_accion>
+        <tipo_premio_guion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adam McKay &amp; Charles Randolph &amp; Michael Lewis Año 2016</tipo_premio_guion>
+        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La gran apuesta</titulo>
+        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The big short</titulo_original>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#The_Hateful_Eight -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#The_Hateful_Eight">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <es_del_genero rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_western"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Kurt_Russell"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Samuel_L._Jackson"/>
+        <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
+        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
+        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shiny Penny &amp; FilmColony</compania_productora>
+        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quentin Tarantino</director>
+        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">187</duracion>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-10-02T00:00:00</fecha_estreno>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-12-07T00:00:00</fecha_estreno>
+        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</idioma_original>
+        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</pais_origen>
+        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centrada pocos años después de la guerra de Secesión, comienza con una diligencia atravesando las ventosas llanuras de Wyoming en un invierno con una tormenta de nieve. Los pasajeros, el cazarrecompensas John Ruth  y su fugitiva Daisy Domergue , viajan camino al pueblo de Red Rock como los únicos pasajeros de la diligencia, donde John Ruth, conocido en esas tierras como The Hangman (la Horca), llevará a Domergue a la justicia para ser ahorcada y cobrar la recompensa.</sinopsis>
+        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Los odiosos ocho</titulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#The_Martian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#The_Martian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Matt_Damon"/>
+        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG-7</clasificacion>
+        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TSG Entertainment &amp; 20th Century Studios</compania_productora>
+        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ridley Scott</director>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T00:00:00</fecha_estreno>
+        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Durante una misión a Marte de la nave tripulada Ares III, una fuerte tormenta se desata, por lo que, tras haber dado por desaparecido y muerto al astronauta Mark Watney (Matt Damon), sus compañeros toman la decisión de irse; sin embargo, ha sobrevivido, pero está solo y con pocos recursos en el planeta</sinopsis>
+        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marte: Misión rescate</titulo>
+        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Martian</titulo_original>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#The_Revenant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#The_Revenant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Actor_Principal_2016"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Leonardo_DiCaprio"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tom_Hardy"/>
+        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG-15</clasificacion>
+        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regency Enterprises
+RatPac Entertainment
+New Regency Pictures
+Anonymous Content
+M Productions
+Appian Way
+Alpha Pictures</compania_productora>
+        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alejandro González Iñárritu</director>
+        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">156</duracion>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-06T00:00:00</fecha_estreno>
+        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</pais_origen>
+        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">En 1823, Hugh Glass guía a un grupo de tramperos pertenecientes a Andrew Henry en el territorio septentrional desorganizado de Luisiana cuando de repente sufren una emboscada por un grupo de Indios arikara, que les roban las pieles que llevaban. Sin embargo, algunos logran escapar</sinopsis>
+        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El renacido</titulo>
+        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Revenant</titulo_original>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Timothée_Chalamet -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Timothée_Chalamet">
@@ -2931,6 +3455,34 @@ Alpha Pictures</compania_productora>
         <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Timothée Chalamet</nombre_actor>
         <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#int">70</peso>
         <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tom_Hanks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tom_Hanks">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Bridge_of_Spies"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">183</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">64</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tom hanks</nombre_actor>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</sexo_actor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tom_Hardy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tom_Hardy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mad_Max_-_Fury_Road"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">175</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">43</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inglaterra</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tom Hardy</nombre_actor>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</sexo_actor>
     </owl:NamedIndividual>
     
 
@@ -3033,14 +3585,6 @@ Alpha Pictures</compania_productora>
     
 
 
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#genero_drama -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#genero_drama">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Drama"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#genero_romance -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#genero_romance">
@@ -3069,361 +3613,6 @@ Alpha Pictures</compania_productora>
         <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6 de abril de 1917. Mientras un regimiento se reúne para librar la guerra en las profundidades del territorio enemigo, dos soldados son asignados a correr contra el tiempo y entregar un mensaje que evitará que 1.600 hombres caminen directamente hacia una trampa mortal.</sinopsis>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1917</titulo>
         <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1917</titulo_original>
-    </owl:NamedIndividual>
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Bridge_of_Spies -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Bridge_of_Spies">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
-        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tom_Hanks"/>
-        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steven Spielberg</director>
-        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">141</duracion>
-        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-04T00:00:00</fecha_estreno>
-        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</idioma_original>
-        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La película narra los hechos sucedidos en Norteamérica en 1957 sobre la detención del espía ruso Rudolf Abel y su enjuiciamiento, de cuya defensa se encargó al abogado James B. Donovan y también el posterior incidente del U-2, ocurrido en 1960</sinopsis>
-        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El puente de los espías y Puente de espías</titulo>
-        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bridge of spies</titulo_original>
-    </owl:NamedIndividual>
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Charlize_Theron -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Charlize_Theron">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
-        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mad_Max_-_Fury_Road"/>
-        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">177</altura>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">44</edad>
-        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sudafrica</nacionalidad>
-        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Charlize Theron</nombre_actor>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</sexo_actor>
-    </owl:NamedIndividual>
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#ChristianBale -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#ChristianBale">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
-        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#TheBigShort"/>
-        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">183</altura>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">42</edad>
-        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reino Unido UK</nacionalidad>
-        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Christian Bale</nombre_actor>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</sexo_actor>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_Ciencia_ficcion -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_Ciencia_ficcion">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Ciencia_ficcion"/>
-        <es_del_genero rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_Ciencia_ficcion"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_Drama -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_Drama">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Drama"/>
-        <es_del_genero rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Bridge_of_Spies"/>
-        <descripcion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El drama en el cine implica un filme donde se desarrolla a fondo la caracterización de los personajes, de una manera realista, y dejando aflorar sus emociones y sus sentimientos, lo que de una u otra forma genera conflictos entre ellos y aún consigo mismo, y/o con la sociedad, y/o con la propia naturaleza.</descripcion>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_accion -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_accion">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Accion"/>
-        <es_del_genero rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_accion"/>
-        <descripcion>El llamado cine de acción es un género cinematográfico donde prima la espectacularidad de las imágenes por medio de efectos especiales de estilo &quot;clásico&quot;.</descripcion>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_crimen -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_crimen">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Crimen"/>
-        <es_el_genero_de rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joker"/>
-        <descripcion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Usualmente al comienzo se ofrece al espectador los antecedentes de un grave crimen, acabando esta parte cuando efectivamente se comete dicho acto criminal y se arma el suspenso.</descripcion>
-        <nombre_genero rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crimen</nombre_genero>
-        <participan_las_fuerzas_del_orden rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</participan_las_fuerzas_del_orden>
-        <personajes_antagonicos rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asesino</personajes_antagonicos>
-        <subgenero_crimen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">detectives</subgenero_crimen>
-        <tiene_asesinatos rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tiene_asesinatos>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_western -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_western">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Western"/>
-        <descripcion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wéstern es un extranjerismo adaptado al español e incorporado en el Diccionario de la lengua española de la Asociación de Academias de la Lengua Española. A estas obras cinematográficas también se las suele llamar películas de vaqueros.</descripcion>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joaquin_Phoenix -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joaquin_Phoenix">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
-        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joker"/>
-        <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Mejor_Actor_Principal_2019"/>
-        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">173</altura>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</edad>
-        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadunidense</nacionalidad>
-        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joaquin Phoenix</nombre_actor>
-        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71</peso>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joker -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joker">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
-        <es_del_genero rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_crimen"/>
-        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joaquin_Phoenix"/>
-        <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
-        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
-        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warner Bros</compania_productora>
-        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Todd Phillips</director>
-        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">122</duracion>
-        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-04T00:00:00</fecha_estreno>
-        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</idioma_original>
-        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</pais_origen>
-        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">En Gotham City, el comediante con problemas mentales Arthur Fleck es ignorado y maltratado por la sociedad. Luego se embarca en una espiral descendente de revolución y crímenes sangrientos. Este camino lo pone cara a cara con su alter ego: el Joker.</sinopsis>
-        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joker</titulo>
-        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joker</titulo_original>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Kurt_Russell -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Kurt_Russell">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
-        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#The_Hateful_Eight"/>
-        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">180</altura>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">69</edad>
-        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</nacionalidad>
-        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kurt Russell</nombre_actor>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</sexo_actor>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Leonardo_DiCaprio -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Leonardo_DiCaprio">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
-        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#The_Revenant"/>
-        <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Actor_Principal_2016"/>
-        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">183</altura>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">45</edad>
-        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</nacionalidad>
-        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leonardo DiCaprio</nombre_actor>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</sexo_actor>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mad_Max_-_Fury_Road -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mad_Max_-_Fury_Road">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
-        <es_del_genero rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_accion"/>
-        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Charlize_Theron"/>
-        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tom_Hardy"/>
-        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
-        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-14T00:00:00</fecha_estreno>
-        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</idioma_original>
-        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La película está ambientada en una futura y post-apocaliptica Tierra desierta, donde la gasolina y el agua son productos escasos. Sigue a Max Rockatansky (Tom Hardy), que se une a Imperator Furiosa (Charlize Theron) para huir del líder de culto Inmortal</sinopsis>
-        <subgenero_accion rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></subgenero_accion>
-        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mad Max: Furia en el camino</titulo>
-        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mad Max  Fury Road</titulo_original>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Matt_Damon -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Matt_Damon">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
-        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#The_Martian"/>
-        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#string">178</altura>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50</edad>
-        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</nacionalidad>
-        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matt Damon</nombre_actor>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</sexo_actor>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Actor_Principal_2016 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Actor_Principal_2016">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actor"/>
-        <se_premio_a rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Leonardo_DiCaprio"/>
-        <anio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2016</anio>
-        <descripcion_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Premio al mejor actor principal 2016</descripcion_premio>
-        <ganador rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ganador>
-        <nombre_academia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Academia de Artes y Ciencias Cinematográficas de Estados Unidos</nombre_academia>
-        <nombre_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Premio Oscar Mejor Actor principal</nombre_premio>
-        <tipo_mejor_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Principal</tipo_mejor_actor>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Guion -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Guion">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Guion"/>
-        <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#TheBigShort"/>
-        <tipo_premio_guion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Premio al mejor Guion del año en curso</tipo_premio_guion>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Mejor_Actor_Principal_2019 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Mejor_Actor_Principal_2019">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actor"/>
-        <se_premio_a rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joaquin_Phoenix"/>
-        <anio rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</anio>
-        <descripcion_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Premio Oscar Mejor Actor Principal 2019</descripcion_premio>
-        <es_protagonista_de_la_pelicula rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</es_protagonista_de_la_pelicula>
-        <ganador rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ganador>
-        <ha_sido_ganador_anteriormente rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ha_sido_ganador_anteriormente>
-        <nombre_academia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Academia de Artes y Ciencias Cinematográficas de Estados Unidos</nombre_academia>
-        <nombre_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mejor Actor Principal</nombre_premio>
-        <tipo_mejor_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mejor actor principal</tipo_mejor_actor>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Samuel_L._Jackson -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Samuel_L._Jackson">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
-        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#The_Hateful_Eight"/>
-        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">189</altura>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">72</edad>
-        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</nacionalidad>
-        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Samuel L. Jackson</nombre_actor>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</sexo_actor>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#TheBigShort -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#TheBigShort">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
-        <es_del_genero rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_accion"/>
-        <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Guion"/>
-        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#ChristianBale"/>
-        <descripcion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El llamado cine de acción es un género cinematográfico donde prima la espectacularidad de las imágenes por medio de efectos especiales de estilo clásico.</descripcion>
-        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adam McKay</director>
-        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-11-12T00:00:00</fecha_estreno>
-        <subgenero_accion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">accion</subgenero_accion>
-        <tipo_premio_guion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adam McKay &amp; Charles Randolph &amp; Michael Lewis Año 2016</tipo_premio_guion>
-        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La gran apuesta</titulo>
-        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The big short</titulo_original>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#The_Hateful_Eight -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#The_Hateful_Eight">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
-        <es_del_genero rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_western"/>
-        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Kurt_Russell"/>
-        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Samuel_L._Jackson"/>
-        <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
-        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
-        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shiny Penny &amp; FilmColony</compania_productora>
-        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quentin Tarantino</director>
-        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">187</duracion>
-        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-10-02T00:00:00</fecha_estreno>
-        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-12-07T00:00:00</fecha_estreno>
-        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</idioma_original>
-        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</pais_origen>
-        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centrada pocos años después de la guerra de Secesión, comienza con una diligencia atravesando las ventosas llanuras de Wyoming en un invierno con una tormenta de nieve. Los pasajeros, el cazarrecompensas John Ruth  y su fugitiva Daisy Domergue , viajan camino al pueblo de Red Rock como los únicos pasajeros de la diligencia, donde John Ruth, conocido en esas tierras como The Hangman (la Horca), llevará a Domergue a la justicia para ser ahorcada y cobrar la recompensa.</sinopsis>
-        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Los odiosos ocho</titulo>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#The_Martian -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#The_Martian">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
-        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Matt_Damon"/>
-        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG-7</clasificacion>
-        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TSG Entertainment &amp; 20th Century Studios</compania_productora>
-        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ridley Scott</director>
-        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T00:00:00</fecha_estreno>
-        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Durante una misión a Marte de la nave tripulada Ares III, una fuerte tormenta se desata, por lo que, tras haber dado por desaparecido y muerto al astronauta Mark Watney (Matt Damon), sus compañeros toman la decisión de irse; sin embargo, ha sobrevivido, pero está solo y con pocos recursos en el planeta</sinopsis>
-        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marte: Misión rescate</titulo>
-        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Martian</titulo_original>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#The_Revenant -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#The_Revenant">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
-        <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Actor_Principal_2016"/>
-        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Leonardo_DiCaprio"/>
-        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tom_Hardy"/>
-        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG-15</clasificacion>
-        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regency Enterprises
-RatPac Entertainment
-New Regency Pictures
-Anonymous Content
-M Productions
-Appian Way
-Alpha Pictures</compania_productora>
-        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alejandro González Iñárritu</director>
-        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">156</duracion>
-        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-06T00:00:00</fecha_estreno>
-        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</pais_origen>
-        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">En 1823, Hugh Glass guía a un grupo de tramperos pertenecientes a Andrew Henry en el territorio septentrional desorganizado de Luisiana cuando de repente sufren una emboscada por un grupo de Indios arikara, que les roban las pieles que llevaban. Sin embargo, algunos logran escapar</sinopsis>
-        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El renacido</titulo>
-        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Revenant</titulo_original>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tom_Hanks -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tom_Hanks">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
-        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Bridge_of_Spies"/>
-        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">183</altura>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">64</edad>
-        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</nacionalidad>
-        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tom hanks</nombre_actor>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</sexo_actor>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tom_Hardy -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tom_Hardy">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
-        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mad_Max_-_Fury_Road"/>
-        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">175</altura>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">43</edad>
-        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inglaterra</nacionalidad>
-        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tom Hardy</nombre_actor>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</sexo_actor>
     </owl:NamedIndividual>
     
 
