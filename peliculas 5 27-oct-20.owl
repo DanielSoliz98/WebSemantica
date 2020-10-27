@@ -1109,42 +1109,36 @@
                                         <rdf:rest>
                                             <rdf:Description>
                                                 <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                <rdf:first>criatura acuatica</rdf:first>
+                                                <rdf:first>dragones</rdf:first>
                                                 <rdf:rest>
                                                     <rdf:Description>
                                                         <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                        <rdf:first>dragones</rdf:first>
+                                                        <rdf:first>duendes</rdf:first>
                                                         <rdf:rest>
                                                             <rdf:Description>
                                                                 <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                                <rdf:first>duendes</rdf:first>
+                                                                <rdf:first>elfos</rdf:first>
                                                                 <rdf:rest>
                                                                     <rdf:Description>
                                                                         <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                                        <rdf:first>elfos</rdf:first>
+                                                                        <rdf:first>enanos</rdf:first>
                                                                         <rdf:rest>
                                                                             <rdf:Description>
                                                                                 <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                                                <rdf:first>enanos</rdf:first>
+                                                                                <rdf:first>hobbits</rdf:first>
                                                                                 <rdf:rest>
                                                                                     <rdf:Description>
                                                                                         <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                                                        <rdf:first>hobbits</rdf:first>
+                                                                                        <rdf:first>magos</rdf:first>
                                                                                         <rdf:rest>
                                                                                             <rdf:Description>
                                                                                                 <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                                                                <rdf:first>magos</rdf:first>
+                                                                                                <rdf:first>orcos</rdf:first>
                                                                                                 <rdf:rest>
                                                                                                     <rdf:Description>
                                                                                                         <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                                                                        <rdf:first>orcos</rdf:first>
-                                                                                                        <rdf:rest>
-                                                                                                            <rdf:Description>
-                                                                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                                                                                <rdf:first>unicornios</rdf:first>
-                                                                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                                                                            </rdf:Description>
-                                                                                                        </rdf:rest>
+                                                                                                        <rdf:first>unicornios</rdf:first>
+                                                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
                                                                                                     </rdf:Description>
                                                                                                 </rdf:rest>
                                                                                             </rdf:Description>
@@ -2198,19 +2192,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Christian_Bale -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Christian_Bale">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
-        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">183</altura>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</edad>
-        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Britanico</nacionalidad>
-        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Christian Bale</nombre_actor>
-        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</peso>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
-    </owl:NamedIndividual>
-    
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Daniel_Kaluuya -->
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_western -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_western">
@@ -2334,16 +2315,6 @@
 
 
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Guion -->
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_fantasia_criatura_acuatica -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_fantasia_criatura_acuatica">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Fantasia"/>
-        <nombre_genero rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genero fantasia</nombre_genero>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_musical_pop -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Guion">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Guion"/>
@@ -2466,25 +2437,6 @@ Alpha Pictures</compania_productora>
     
 
 
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joker -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joker">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
-        <es_del_genero rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_Crimen_Asesino_Policias"/>
-        <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mejor_Banda_Sonora_2019"/>
-        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joaquin_Phoenix"/>
-        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Robert_De_Niro"/>
-        <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
-        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
-        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warner Bros</compania_productora>
-        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Todd Phillips</director>
-        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">122</duracion>
-        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-25T00:00:00</fecha_estreno>
-        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</idioma_original>
-        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</pais_origen>
-        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">En Gotham City, el comediante con problemas mentales Arthur Fleck es ignorado y maltratado por la sociedad. Luego se embarca en una espiral descendente de revolución y crímenes sangrientos. Este camino lo pone cara a cara con su alter ego: el Joker.</sinopsis>
-        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joker</titulo>
-        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joker</titulo_original>
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tom_Hanks -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tom_Hanks">
@@ -2503,384 +2455,6 @@ Alpha Pictures</compania_productora>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tom_Hardy">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
-        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Roma"/>
-        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">168</altura>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</edad>
-        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mexicana</nacionalidad>
-        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marina de Tavira Servitje</nombre_actor>
-        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57</peso>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femenino</sexo_actor>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Matt_Damon -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Matt_Damon">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
-        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Ford_v_Ferrari"/>
-        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">178</altura>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</edad>
-        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadounidense</nacionalidad>
-        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matt Damon</nombre_actor>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mejor_Banda_Sonora_2019 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mejor_Banda_Sonora_2019">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Sonido"/>
-        <se_premio_a rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joker"/>
-        <anio rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</anio>
-        <nombre_academia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Academia de Artes y Ciencias Cinematográficas de Estados Unidos</nombre_academia>
-        <nombre_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mejor Banda Sonora 2019</nombre_premio>
-        <tipo_premio_sonido rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mejor banda sonora</tipo_premio_sonido>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mejor_Director_2019 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mejor_Director_2019">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Director"/>
-        <se_premio_a rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Parasitos"/>
-        <anio rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</anio>
-        <ha_sido_ganador_anteriormente rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ha_sido_ganador_anteriormente>
-        <nombre_academia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Academia de Artes y Ciencias Cinematográficas de Estados Unidos</nombre_academia>
-        <nombre_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mejor Director 2019</nombre_premio>
-        <tipo_mejor_director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mejor director</tipo_mejor_director>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mejor_Fotografia_2019 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mejor_Fotografia_2019">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Produccion"/>
-        <se_premio_a rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#1917"/>
-        <anio rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</anio>
-        <nombre_academia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Academia de Artes y Ciencias Cinematográficas de Estados Unidos</nombre_academia>
-        <nombre_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mejor Fotografia 2019</nombre_premio>
-        <tipo_premio_produccion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mejor fotografia</tipo_premio_produccion>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mejor_Guion_Original_2019 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mejor_Guion_Original_2019">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Guion"/>
-        <se_premio_a rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Parasitos"/>
-        <anio rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</anio>
-        <basada_en_hechos_reales rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</basada_en_hechos_reales>
-        <nombre_academia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Academia de Artes y Ciencias Cinematográficas de Estados Unidos</nombre_academia>
-        <nombre_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mejor Guion Original 2019</nombre_premio>
-        <tipo_premio_guion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mejor guion original</tipo_premio_guion>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mejor_Montaje_2019 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mejor_Montaje_2019">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Produccion"/>
-        <se_premio_a rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Ford_v_Ferrari"/>
-        <anio rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</anio>
-        <nombre_academia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Academia de Artes y Ciencias Cinematográficas de Estados Unidos</nombre_academia>
-        <nombre_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mejor Montaje 2019</nombre_premio>
-        <tipo_premio_produccion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mejor montaje</tipo_premio_produccion>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mejor_Pelicula_Animada_2019 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mejor_Pelicula_Animada_2019">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Pelicula"/>
-        <se_premio_a rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Toy_Story_4"/>
-        <anio rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</anio>
-        <nombre_academia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Academia de Artes y Ciencias Cinematográficas de Estados Unidos</nombre_academia>
-        <nombre_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mejor Pelicula Animada 2019</nombre_premio>
-        <tipo_premio_pelicula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mejor pelicula animada</tipo_premio_pelicula>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mejor_Sonido_2019 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mejor_Sonido_2019">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Sonido"/>
-        <se_premio_a rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#1917"/>
-        <anio rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</anio>
-        <nombre_academia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Academia de Artes y Ciencias Cinematográficas de Estados Unidos</nombre_academia>
-        <nombre_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mejor sonido 2019</nombre_premio>
-        <tipo_premio_sonido rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mejor sonido</tipo_premio_sonido>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mejores_Efectos_Visuales_2019 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mejores_Efectos_Visuales_2019">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Produccion"/>
-        <se_premio_a rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#1917"/>
-        <anio rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</anio>
-        <nombre_academia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Academia de Artes y Ciencias Cinematográficas de Estados Unidos</nombre_academia>
-        <nombre_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mejor Efecto Visual 2019</nombre_premio>
-        <tipo_premio_produccion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mejores efectos visuales</tipo_premio_produccion>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Meryl_Streep -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Meryl_Streep">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
-        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Los_archivos_del_pentagono"/>
-        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#string">172</altura>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">71</edad>
-        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadounidense</nacionalidad>
-        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mary Louise Streep</nombre_actor>
-        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">62</peso>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenina</sexo_actor>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Olivia_Colman -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Olivia_Colman">
-        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#La_Favorita"/>
-        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">170</altura>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</edad>
-        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Britanica</nacionalidad>
-        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sarah Caroline Olivia Colman</nombre_actor>
-        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</peso>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femenino</sexo_actor>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Parasitos -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Parasitos">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
-        <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mejor_Director_2019"/>
-        <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mejor_Guion_Original_2019"/>
-        <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Mejor_Pelicula_2019"/>
-        <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Mejor_Pelicula_Extrajera_2019"/>
-        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Choi_Woo-shik"/>
-        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Song_Kang-ho"/>
-        <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
-        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
-        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barunson E&amp;A</compania_productora>
-        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bong Joon Ho</director>
-        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">132</duracion>
-        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Koreano</idioma_original>
-        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Korea del Sur</pais_origen>
-        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La codicia y la discriminación de clase amenazan la relación simbiótica recién formada entre la rica familia Park y el indigente clan Kim.</sinopsis>
-        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parasitos</titulo>
-        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gisaengchung</titulo_original>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Cinematografico_Mejor_Actor_Comedia_2019 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Cinematografico_Mejor_Actor_Comedia_2019">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actor"/>
-        <se_premio_a rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Christian_Bale"/>
-        <anio rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</anio>
-        <es_protagonista_de_la_pelicula rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</es_protagonista_de_la_pelicula>
-        <ha_sido_ganador_anteriormente rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ha_sido_ganador_anteriormente>
-        <nombre_academia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Broadcast Film Critics Association</nombre_academia>
-        <tipo_mejor_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">comedia</tipo_mejor_actor>
-        <descripcion_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El premio de la Crítica Cinematográfica al mejor actor de comedia es uno de los premios que se otorgan a las personas que trabajan en la industria del cine por la Broadcast Film Critics Association.</descripcion_premio>
-        <ganador rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ganador>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Mejor_Pelicula_2019 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Mejor_Pelicula_2019">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Pelicula"/>
-        <se_premio_a rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Parasitos"/>
-        <anio rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</anio>
-        <es_americana rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</es_americana>
-        <nombre_academia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Academia de Artes y Ciencias Cinematográficas de Estados Unidos</nombre_academia>
-        <nombre_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mejor Pelicula 2019</nombre_premio>
-        <tipo_premio_pelicula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mejor pelicula</tipo_premio_pelicula>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Mejor_Pelicula_Extrajera_2019 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Mejor_Pelicula_Extrajera_2019">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Pelicula"/>
-        <se_premio_a rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Parasitos"/>
-        <anio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</anio>
-        <es_americana rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</es_americana>
-        <nombre_academia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Academia de Artes y Ciencias Cinematográficas de Estados Unidos</nombre_academia>
-        <nombre_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mejor Pelicula Extranjera 2019</nombre_premio>
-        <tipo_premio_pelicula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mejor pelicula extranjera</tipo_premio_pelicula>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_NAACP_Mejor_Actor_De_Cine_2019 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_NAACP_Mejor_Actor_De_Cine_2019">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actor"/>
-        <se_premio_a rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Chadwick_Boseman"/>
-        <anio rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</anio>
-        <es_protagonista_de_la_pelicula rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</es_protagonista_de_la_pelicula>
-        <ha_sido_ganador_anteriormente rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ha_sido_ganador_anteriormente>
-        <nombre_academia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAACP Image Award</nombre_academia>
-        <nombre_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mejor Actor De Cine</nombre_premio>
-        <tipo_mejor_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cine</tipo_mejor_actor>
-        <descripcion_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">es un galardón otorgado por la Asociación Nacional Americana para el Avance de la Gente de Color para honrar a las personas excepcionales negras en el cine</descripcion_premio>
-        <ganador rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ganador>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Mejor_Actor_Principal_2019 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Mejor_Actor_Principal_2019">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actor"/>
-        <se_premio_a rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joaquin_Phoenix"/>
-        <anio rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</anio>
-        <es_protagonista_de_la_pelicula rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</es_protagonista_de_la_pelicula>
-        <ha_sido_ganador_anteriormente rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ha_sido_ganador_anteriormente>
-        <nombre_academia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Academia de Artes y Ciencias Cinematográficas de Estados Unidos</nombre_academia>
-        <nombre_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mejor Actor Principal</nombre_premio>
-        <tipo_mejor_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mejor actor principal</tipo_mejor_actor>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Mejor_Actriz_Principal_2019 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Mejor_Actriz_Principal_2019">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actriz"/>
-        <se_premio_a rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Renée_Zellweger"/>
-        <anio rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</anio>
-        <es_protagonista_de_la_pelicula rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</es_protagonista_de_la_pelicula>
-        <ha_sido_ganador_anteriormente rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ha_sido_ganador_anteriormente>
-        <nombre_academia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Academia de Artes y Ciencias Cinematográficas de Estados Unidos</nombre_academia>
-        <nombre_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mejor Actriz Princial</nombre_premio>
-        <tipo_mejor_actriz rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mejor actriz principal</tipo_mejor_actriz>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Renée_Zellweger -->
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_oscar_a_mejor_actriz_2018 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_oscar_a_mejor_actriz_2018">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actor"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_oscar_mejor_actor_2018 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_oscar_mejor_actor_2018">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actor"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Rachel_Weisz -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Rachel_Weisz">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
-        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#La_Favorita"/>
-        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">168</altura>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</edad>
-        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Britanica &amp;&amp; Estadounidense</nacionalidad>
-        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rachel Hannah Weisz</nombre_actor>
-        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</peso>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femenino</sexo_actor>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Renée_Zellweger -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Renée_Zellweger">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
-        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Judy"/>
-        <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Mejor_Actriz_Principal_2019"/>
-        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">160</altura>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</edad>
-        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadounidense</nacionalidad>
-        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Renée Kathleen Zellweger</nombre_actor>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Robert_De_Niro -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Robert_De_Niro">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
-        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joker"/>
-        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">177</altura>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">77</edad>
-        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadunidense</nacionalidad>
-        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Robert De Niro</nombre_actor>
-        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</peso>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Roma -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Roma">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
-        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Marina_de_Tavira"/>
-        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Yalitza_Aparicio"/>
-        <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
-        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
-        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Participant Media &amp;&amp; Esperanto Filmoj</compania_productora>
-        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alfonso Cuaron</director>
-        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">135</duracion>
-        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-30</fecha_estreno>
-        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Español Mixteco</idioma_original>
-        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mexico &amp;&amp; USA</pais_origen>
-        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">En la colonia Roma, de Ciudad de México, dos empleadas domésticas ayudan a una madre a criar a sus cuatro hijos durante las largas ausencias de su esposo. Una de las jóvenes, Cleo, se hace cargo de los niños como si fueran propios, a pesar de estar atravesando un momento difícil.</sinopsis>
-        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roma</titulo>
-        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roma</titulo_original>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Sally_Hawkins -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Sally_Hawkins">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
-        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#La_forma_del_agua"/>
-        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">165</altura>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">44</edad>
-        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Britanica</nacionalidad>
-        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sally Cecilia Hawkins</nombre_actor>
-        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#int">55</peso>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenina</sexo_actor>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Sam_Rockwell -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Sam_Rockwell">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
-        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tres_anuncions_en_las_afueras"/>
         <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mad_Max_-_Fury_Road"/>
         <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">175</altura>
         <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">43</edad>
@@ -2891,187 +2465,65 @@ Alpha Pictures</compania_productora>
     
 
 
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Saoirse_Ronan -->
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Saoirse_Ronan">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
-        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Lady_Bird"/>
-        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">168</altura>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">26</edad>
-        <lugar_de_los_acontecimientos rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadounidense e Irlandesa</lugar_de_los_acontecimientos>
-        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saoirse Ronan</nombre_actor>
-        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#int">155</peso>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenina</sexo_actor>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Song_Kang-ho -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Song_Kang-ho">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
-        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Parasitos"/>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</edad>
-        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surcoreano</nacionalidad>
-        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Song Kang-ho</nombre_actor>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Timothée_Chalamet -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Timothée_Chalamet">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
-        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Call_Me_By_Your_Name"/>
-        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Lady_Bird"/>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">182</edad>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</edad>
-        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadounidense</nacionalidad>
-        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Timothée Chalamet</nombre_actor>
-        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#int">70</peso>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Toy_Story_4 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Toy_Story_4">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
-        <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mejor_Pelicula_Animada_2019"/>
-        <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</apta_para_todo_publico>
-        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G</clasificacion>
-        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pixar Animation Studios</compania_productora>
-        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Josh Cooley</director>
-        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</duracion>
-        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</idioma_original>
-        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</pais_origen>
-        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cuando un juguete nuevo llamado &quot;Forky&quot; se une a Woody y la pandilla, un viaje por carretera junto a viejos y nuevos amigos revela cuán grande puede ser el mundo para un juguete.</sinopsis>
-        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toy Story 4</titulo>
-        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toy Story 4</titulo_original>
-    </owl:NamedIndividual>
-    
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Accion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Animacion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Aventura"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Ciencia_ficcion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Comedia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Crimen"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Deportes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Documental"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Drama"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Fantasia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Guerra"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Musical"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Romance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Terror"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Western"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actriz"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Director"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Guion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Pelicula"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Produccion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Sonido"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Generos"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premios"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
 
 
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tres_anuncions_en_las_afueras -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tres_anuncions_en_las_afueras">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
-        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Frances_McDormand"/>
-        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Sam_Rockwell"/>
-        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tres_anuncions_en_las_afueras"/>
-        <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
-        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
-        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Film4 Productions</compania_productora>
-        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Martin McDonagh</director>
-        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">115</duracion>
-        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-10T00:00:00</fecha_estreno>
-        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</idioma_original>
-        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estados Unidos</pais_origen>
-        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Una mujer cuya hija fue asesinada se enfrenta a la policía usando los carteles publicitarios para denunciar que han pasado meses desde que se cometió el crimen y no solo no han resuelto nada, sino que parecen no tener interés en hacerlo.</sinopsis>
-        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tres anuncios por un crimen</titulo>
-        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Three BIllboards outside</titulo_original>
-    </owl:NamedIndividual>
-    
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
 
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Vicky_Krieps -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Vicky_Krieps">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
-        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#El_hilo_invisible"/>
-        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">175</altura>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">37</edad>
-        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luxemburguesa</nacionalidad>
-        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vicky Krieps</nombre_actor>
-        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#int">55</peso>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenina</sexo_actor>
-    </owl:NamedIndividual>
-    
 
 
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Viggo_Mortensen -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Viggo_Mortensen">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
-        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Green_Book"/>
-        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">175</altura>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62</edad>
-        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadounidense</nacionalidad>
-        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viggo Peter Mortensen</nombre_actor>
-        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</peso>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</sexo_actor>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Yalitza_Aparicio -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Yalitza_Aparicio">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
-        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Roma"/>
-        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">153</altura>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</edad>
-        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mexicana</nacionalidad>
-        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yalitza Aparicio Martinez</nombre_actor>
-        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</peso>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femenino</sexo_actor>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Zazie_Beetz -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Zazie_Beetz">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
-        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joker"/>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</edad>
-        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alemana</nacionalidad>
-        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zazie Olivia Beetz</nombre_actor>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#genero_drama -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#genero_drama">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Drama"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#genero_romance -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#genero_romance">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Romance"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#1917 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#1917">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
-        <es_del_genero rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_Guerra_Primera_Guerra_Mundial"/>
-        <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mejor_Fotografia_2019"/>
-        <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mejor_Sonido_2019"/>
-        <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mejores_Efectos_Visuales_2019"/>
-        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Dean-Charles_Chapman"/>
-        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#George_MacKay"/>
-        <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
-        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
-        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amblin Partners</compania_productora>
-        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sam Mendes</director>
-        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">119</duracion>
-        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</idioma_original>
-        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</pais_origen>
-        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6 de abril de 1917. Mientras un regimiento se reúne para librar la guerra en las profundidades del territorio enemigo, dos soldados son asignados a correr contra el tiempo y entregar un mensaje que evitará que 1.600 hombres caminen directamente hacia una trampa mortal.</sinopsis>
-        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1917</titulo>
-        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1917</titulo_original>
-    </owl:NamedIndividual>
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Bridge_of_Spies -->
+<!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Bridge_of_Spies -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Bridge_of_Spies">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
@@ -3425,61 +2877,3 @@ Alpha Pictures</compania_productora>
         <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tom Hardy</nombre_actor>
         <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</sexo_actor>
     </owl:NamedIndividual>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // General axioms
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Accion"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Animacion"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Aventura"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Ciencia_ficcion"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Comedia"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Crimen"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Deportes"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Documental"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Drama"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Fantasia"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Guerra"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Musical"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Romance"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Terror"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Western"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actor"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actriz"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Director"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Guion"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Pelicula"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Produccion"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Sonido"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Generos"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premios"/>
-        </owl:members>
-    </rdf:Description>
-</rdf:RDF>
-
-
-
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
-
