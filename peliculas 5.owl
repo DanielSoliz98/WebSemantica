@@ -2182,6 +2182,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Call_Me_By_Your_Name">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Timothée_Chalamet"/>
         <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
         <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
         <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frensy Film Company</compania_productora>
@@ -2767,6 +2768,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Lady_Bird">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Saoirse_Ronan"/>
         <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
         <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
         <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scott Rudin Productions</compania_productora>
@@ -3307,6 +3309,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tres_anuncions_en_las_afueras">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
         <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Frances_McDormand"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Sam_Rockwell"/>
         <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tres_anuncions_en_las_afueras"/>
         <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
         <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
