@@ -2099,6 +2099,35 @@
         <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57</peso>
         <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femenino</sexo_actor>
     </owl:NamedIndividual>
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Alison_Williams -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Alison_Williams">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Dejame_salir"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">167</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">32</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadounidense</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alison Howell Williams</nombre_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#int">58</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenina</sexo_actor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Armie_Hammer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Armie_Hammer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Call_Me_By_Your_Name"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">196</altura>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">34</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadounidense</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Armand Douglas Hammer</nombre_actor>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</sexo_actor>
+    </owl:NamedIndividual>
+    
+
 
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Call_Me_By_Your_Name -->
 
@@ -2137,6 +2166,19 @@
         <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Panther</titulo_original>
     </owl:NamedIndividual>
     
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Cillian_Murphy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Cillian_Murphy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Dunkerque"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">175</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">44</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irlandesa</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cillian Murphy</nombre_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#int">71</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</sexo_actor>
+    </owl:NamedIndividual>
+    
 
 
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Bradley_Cooper -->
@@ -2150,6 +2192,19 @@
         <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bradley Charles Cooper</nombre_actor>
         <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</peso>
         <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
+    </owl:NamedIndividual>
+    
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Daniel_Day-Lewis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Daniel_Day-Lewis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#El_hilo_invisible"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">63</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Britanico e Irlandes</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daniel Michael Blake Day-Lewis</nombre_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#int">70</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</sexo_actor>
     </owl:NamedIndividual>
     
 
@@ -2167,6 +2222,20 @@
         <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86</peso>
         <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
     </owl:NamedIndividual>
+    
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Daniel_Kaluuya -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Daniel_Kaluuya">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Dejame_salir"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">174</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">31</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Britanica</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daniel Kaluuya</nombre_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#int">69</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</sexo_actor>
+    </owl:NamedIndividual>
+    
 
 
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Dejame_salir -->
@@ -2288,6 +2357,38 @@
         <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El destino de Europa occidental depende de Winston Churchill en los primeros días de la Segunda Guerra Mundial. El recién nombrado primer ministro británico debe decidir si negocia con Hitler o si lucha contra su temible potencial bélico. Durante las siguientes cuatro semanas de 1940, Churchill consolida su legado, ya que sus valientes decisiones y liderazgo ayudan a cambiar el curso de la historia mundial.</sinopsis>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Las horas mas oscuras</titulo>
         <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Darkest Hour</titulo_original>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Frances_McDormand -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Frances_McDormand">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tres_anuncions_en_las_afueras"/>
+        <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_oscar_a_mejor_actriz_2018"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">165</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">63</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadounidense</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cynthia Ann Smith</nombre_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#int">60</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenina</sexo_actor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Gary_Oldman -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Gary_Oldman">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#El_instante_mas_oscuro"/>
+        <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_oscar_mejor_actor_2018"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">172</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">62</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Britanica</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gary Oldman</nombre_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#int">70</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</sexo_actor>
     </owl:NamedIndividual>
     
 
@@ -2786,6 +2887,21 @@
     </owl:NamedIndividual>
 
     
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Lily_James -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Lily_James">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#El_instante_mas_oscuro"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">170</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">31</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Britanica</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lily Chloe Ninette Thomson</nombre_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#int">58</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenina</sexo_actor>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Los_archivos_del_pentagono -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Los_archivos_del_pentagono">
@@ -2801,6 +2917,21 @@
         <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">En 1971, los periodistas Katharine Graham y Ben Bradlee, del Washington Post, pusieron en riesgo sus carreras para luchar por la libertad de prensa, apoyar al The New York Times y exponer ante el público que el Gobierno estadounidense llevaba treinta años ocultando información.</sinopsis>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Los oscuros secretos del pentagono</titulo>
         <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Post</titulo_original>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Meryl_Streep -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Meryl_Streep">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Los_archivos_del_pentagono"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#string">172</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">71</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadounidense</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mary Louise Streep</nombre_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">62</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenina</sexo_actor>
     </owl:NamedIndividual>
     
 
@@ -2858,7 +2989,36 @@
         <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rachel Hannah Weisz</nombre_actor>
         <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</peso>
         <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femenino</sexo_actor>
+    </owl:NamedIndividual>
 
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_oscar_a_mejor_actriz_2018 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_oscar_a_mejor_actriz_2018">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_oscar_mejor_actor_2018 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_oscar_mejor_actor_2018">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Sally_Hawkins -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Sally_Hawkins">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#La_forma_del_agua"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">165</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">44</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Britanica</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sally Cecilia Hawkins</nombre_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#int">55</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenina</sexo_actor>
     </owl:NamedIndividual>
     
 
@@ -2875,6 +3035,20 @@
         <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</peso>
         <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
     </owl:NamedIndividual>
+
+    
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Sam_Rockwell -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Sam_Rockwell">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tres_anuncions_en_las_afueras"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">175</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">51</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadounidense</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sam Rockwell</nombre_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#int">74</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</sexo_actor>
+    </owl:NamedIndividual>
     
 
 
@@ -2887,6 +3061,20 @@
         <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surcoreano</nacionalidad>
         <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Song Kang-ho</nombre_actor>
         <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
+    </owl:NamedIndividual>
+
+    
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Saoirse_Ronan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Saoirse_Ronan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Lady_Bird"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">168</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">26</edad>
+        <lugar_de_los_acontecimientos rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadounidense e Irlandesa</lugar_de_los_acontecimientos>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saoirse Ronan</nombre_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#int">155</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenina</sexo_actor>
     </owl:NamedIndividual>
     
 
@@ -2927,6 +3115,22 @@
     </owl:NamedIndividual>
 
     
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Timothée_Chalamet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Timothée_Chalamet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Call_Me_By_Your_Name"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Lady_Bird"/>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">182</edad>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadounidense</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Timothée Chalamet</nombre_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#int">70</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tres_anuncions_en_las_afueras -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tres_anuncions_en_las_afueras">
@@ -2969,6 +3173,21 @@
     </owl:NamedIndividual>
 
     
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Vicky_Krieps -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Vicky_Krieps">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#El_hilo_invisible"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">175</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">37</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luxemburguesa</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vicky Krieps</nombre_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#int">55</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenina</sexo_actor>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#genero_drama -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#genero_drama">
