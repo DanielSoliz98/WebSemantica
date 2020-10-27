@@ -55,6 +55,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#gano">
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#se_premio_a"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premios"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premios"/>
     </owl:ObjectProperty>
@@ -2104,6 +2105,93 @@
     
 
 
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Black_Panther -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Black_Panther">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Chadwick_Boseman"/>
+        <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
+        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG-13</clasificacion>
+        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marvel Studios &amp;&amp; Walt Disney Studios Motion Pictures</compania_productora>
+        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ryan Coogler</director>
+        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#short">134</duracion>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-02-16T00:00:00</fecha_estreno>
+        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ingles</idioma_original>
+        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reino Unido &amp;&amp; USA</pais_origen>
+        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Situada después de los eventos de Capitán América: Civil War, T&apos;Challa, hijo del fallecido rey T&apos;Chaka, asciende al trono de Wakanda y se convierte en Pantera Negra, pero descubre que reinar su nación será un desafío para él, ya que no solo debe gobernar y proteger su país, sino también derrotar a un viejo enemigo del pasado, que amenaza a todo el mundo.</sinopsis>
+        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Panther</titulo>
+        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Panther</titulo_original>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Chadwick_Boseman -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Chadwick_Boseman">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Black_Panther"/>
+        <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_NAACP_Mejor_Actor_De_Cine_2019"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">183</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadounidense</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chadwick Aaron Boseman</nombre_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Christian_Bale -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Christian_Bale">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#El_Vicio_Del_Poder"/>
+        <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Cinematografico_Mejor_Actor_Comedia_2019"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">183</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Britanico &amp;&amp; Estadounidense</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Christian Charles Philip Bale</nombre_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#El_Vicio_Del_Poder -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#El_Vicio_Del_Poder">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Christian_Bale"/>
+        <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
+        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
+        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annapurna Pictures &amp;&amp; Plan B Entertainment &amp;&amp; Gary Sanchez Productions</compania_productora>
+        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adam Ferrel</director>
+        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">132</duracion>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-04T00:00:00</fecha_estreno>
+        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ingles</idioma_original>
+        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</pais_origen>
+        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">George W. Bush, gobernador de Texas, elige como su mano derecha para las elecciones presidenciales del año 2000 a Dick Cheney, presidente ejecutivo de Halliburton Co. Esta es la historia de cómo Cheney llegó a disponer de un poder casi ilimitado.</sinopsis>
+        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EL Vicio Del Poder</titulo>
+        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vice</titulo_original>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Emma_Stone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Emma_Stone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#La_Favorita"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">168</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadounidense</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emily Jean Stone</nombre_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femenino</sexo_actor>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_crimen -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_crimen">
@@ -2115,6 +2203,63 @@
         <personajes_antagonicos rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asesino</personajes_antagonicos>
         <subgenero_crimen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">detectives</subgenero_crimen>
         <tiene_asesinatos rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tiene_asesinatos>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Green_Book -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Green_Book">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
+        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG-13</clasificacion>
+        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dream Works &amp;&amp; Amblin Partners &amp;&amp; Participant Media &amp;&amp; Cinetic Media</compania_productora>
+        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peter Farrelly</director>
+        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">130</duracion>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-11T00:00:00</fecha_estreno>
+        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ingles</idioma_original>
+        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</pais_origen>
+        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Un pianista negro contrata a un rudo italoamericano para que sea su chofer y guardaespaldas durante una gira por el sur de los Estados Unidos en 1962, un viaje que les adentra en un territorio y una época subyugados al racismo.</sinopsis>
+        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Una amistad sin Fronteras</titulo>
+        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green Book</titulo_original>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Ha_Nacido_Una_Estrella -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Ha_Nacido_Una_Estrella">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
+        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
+        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jon Peters Entertainment &amp;&amp; Gerber Pictures &amp;&amp; Joint Effrot &amp;&amp; Live Nation Entertainment</compania_productora>
+        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bradley Cooper</director>
+        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">134</duracion>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-31T00:00:00</fecha_estreno>
+        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ingles</idioma_original>
+        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</pais_origen>
+        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jackson, una estrella de la música country con problemas de alcoholismo, descubre el talento de Ally, una joven cantante de la cual se enamora. Mientras la carrera de ella despega, Jackson percibe que sus días de gloria están llegando a su fin.</sinopsis>
+        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ha nacido una estrella</titulo>
+        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Star Is Born</titulo_original>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Infiltrado_En_El_KKKlan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Infiltrado_En_El_KKKlan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
+        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
+        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blumhouse Production &amp;&amp; Monkey Production &amp;&amp; QC Entertainment &amp;&amp; Perfect Worl Pictures</compania_productora>
+        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spike Lee</director>
+        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">128</duracion>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-14</fecha_estreno>
+        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ingles</idioma_original>
+        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</pais_origen>
+        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A principios de los años setenta, una época de gran agitación social con la encarnizada lucha por los derechos civiles como telón de fondo, Ron Stallworth se convierte en el primer agente negro del departamento de policía de Colorado Springs. Pero es recibido con escepticismo y hostilidad por los mandos y algunos de los agentes. Sin amedrentarse, decide seguir adelante y hacer algo por su comunidad llevando a cabo una misión muy peligrosa: infiltrarse en el Ku Klux Klan y exponerlo ante la ciudad.</sinopsis>
+        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infiltrado en el KKKlan</titulo>
+        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BLacKkKlansman</titulo_original>
     </owl:NamedIndividual>
     
 
@@ -2156,6 +2301,90 @@
     
 
 
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#La_Favorita -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#La_Favorita">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Emma_Stone"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Olivia_Colman"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Rachel_Weisz"/>
+        <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
+        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
+        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Element Pictures &amp;&amp; Scarlet Films &amp;&amp; Film4 Productions &amp;&amp; Waypoint Entertainment</compania_productora>
+        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yorgos Lanthimos</director>
+        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">119</duracion>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-23</fecha_estreno>
+        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ingles</idioma_original>
+        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reino Unido &amp;&amp; USA</pais_origen>
+        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A principios del s. XVIII, Inglaterra está en guerra con Francia y la enfermiza reina Anne delega sus responsabilidades en su amiga Lady Sarah. La llegada de una sirvienta dotada de un talento especial, Abigail, pone en peligro la posición de Sarah.</sinopsis>
+        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Favorita</titulo>
+        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Favourite</titulo_original>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Marina_de_Tavira -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Marina_de_Tavira">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Roma"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">168</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mexicana</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marina de Tavira Servitje</nombre_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femenino</sexo_actor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Olivia_Colman -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Olivia_Colman">
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#La_Favorita"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">170</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Britanica</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sarah Caroline Olivia Colman</nombre_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femenino</sexo_actor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Cinematografico_Mejor_Actor_Comedia_2019 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Cinematografico_Mejor_Actor_Comedia_2019">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actor"/>
+        <se_premio_a rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Christian_Bale"/>
+        <anio rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</anio>
+        <descripcion_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El premio de la Crítica Cinematográfica al mejor actor de comedia es uno de los premios que se otorgan a las personas que trabajan en la industria del cine por la Broadcast Film Critics Association.</descripcion_premio>
+        <es_protagonista_de_la_pelicula rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</es_protagonista_de_la_pelicula>
+        <ganador rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ganador>
+        <ha_sido_ganador_anteriormente rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ha_sido_ganador_anteriormente>
+        <nombre_academia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Broadcast Film Critics Association</nombre_academia>
+        <tipo_mejor_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">comedia</tipo_mejor_actor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_NAACP_Mejor_Actor_De_Cine_2019 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_NAACP_Mejor_Actor_De_Cine_2019">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actor"/>
+        <se_premio_a rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Chadwick_Boseman"/>
+        <anio rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</anio>
+        <descripcion_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">es un galardón otorgado por la Asociación Nacional Americana para el Avance de la Gente de Color para honrar a las personas excepcionales negras en el cine</descripcion_premio>
+        <es_protagonista_de_la_pelicula rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</es_protagonista_de_la_pelicula>
+        <ganador rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ganador>
+        <ha_sido_ganador_anteriormente rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ha_sido_ganador_anteriormente>
+        <nombre_academia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAACP Image Award</nombre_academia>
+        <nombre_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mejor Actor De Cine</nombre_premio>
+        <tipo_mejor_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cine</tipo_mejor_actor>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Mejor_Actor_Principal_2019 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Mejor_Actor_Principal_2019">
@@ -2169,6 +2398,57 @@
         <nombre_academia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Academia de Artes y Ciencias Cinematográficas de Estados Unidos</nombre_academia>
         <nombre_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mejor Actor Principal</nombre_premio>
         <tipo_mejor_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mejor actor principal</tipo_mejor_actor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Rachel_Weisz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Rachel_Weisz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#La_Favorita"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">168</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Britanica &amp;&amp; Estadounidense</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rachel Hannah Weisz</nombre_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femenino</sexo_actor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Roma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Roma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Marina_de_Tavira"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Yalitza_Aparicio"/>
+        <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
+        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
+        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Participant Media &amp;&amp; Esperanto Filmoj</compania_productora>
+        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alfonso Cuaron</director>
+        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">135</duracion>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-30</fecha_estreno>
+        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Español Mixteco</idioma_original>
+        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mexico &amp;&amp; USA</pais_origen>
+        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">En la colonia Roma, de Ciudad de México, dos empleadas domésticas ayudan a una madre a criar a sus cuatro hijos durante las largas ausencias de su esposo. Una de las jóvenes, Cleo, se hace cargo de los niños como si fueran propios, a pesar de estar atravesando un momento difícil.</sinopsis>
+        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roma</titulo>
+        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roma</titulo_original>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Yalitza_Aparicio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Yalitza_Aparicio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Roma"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">153</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mexicana</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yalitza Aparicio Martinez</nombre_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femenino</sexo_actor>
     </owl:NamedIndividual>
     
 
