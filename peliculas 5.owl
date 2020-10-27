@@ -2177,7 +2177,20 @@
         <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</sexo_actor>
     </owl:NamedIndividual>
     
+    
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Christian_Bale -->
 
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Christian_Bale">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Britanico</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Christian Bale</nombre_actor>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#El_Vicio_Del_Poder"/>
+        <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Cinematografico_Mejor_Actor_Comedia_2019"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">183</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</edad>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
+    </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Bradley_Cooper -->
 
