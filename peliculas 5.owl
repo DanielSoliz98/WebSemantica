@@ -1104,36 +1104,42 @@
                                         <rdf:rest>
                                             <rdf:Description>
                                                 <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                <rdf:first>dragones</rdf:first>
+                                                <rdf:first>criatura acuatica</rdf:first>
                                                 <rdf:rest>
                                                     <rdf:Description>
                                                         <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                        <rdf:first>duendes</rdf:first>
+                                                        <rdf:first>dragones</rdf:first>
                                                         <rdf:rest>
                                                             <rdf:Description>
                                                                 <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                                <rdf:first>elfos</rdf:first>
+                                                                <rdf:first>duendes</rdf:first>
                                                                 <rdf:rest>
                                                                     <rdf:Description>
                                                                         <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                                        <rdf:first>enanos</rdf:first>
+                                                                        <rdf:first>elfos</rdf:first>
                                                                         <rdf:rest>
                                                                             <rdf:Description>
                                                                                 <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                                                <rdf:first>hobbits</rdf:first>
+                                                                                <rdf:first>enanos</rdf:first>
                                                                                 <rdf:rest>
                                                                                     <rdf:Description>
                                                                                         <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                                                        <rdf:first>magos</rdf:first>
+                                                                                        <rdf:first>hobbits</rdf:first>
                                                                                         <rdf:rest>
                                                                                             <rdf:Description>
                                                                                                 <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                                                                <rdf:first>orcos</rdf:first>
+                                                                                                <rdf:first>magos</rdf:first>
                                                                                                 <rdf:rest>
                                                                                                     <rdf:Description>
                                                                                                         <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                                                                        <rdf:first>unicornios</rdf:first>
-                                                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                                                        <rdf:first>orcos</rdf:first>
+                                                                                                        <rdf:rest>
+                                                                                                            <rdf:Description>
+                                                                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                                                                <rdf:first>unicornios</rdf:first>
+                                                                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                                                            </rdf:Description>
+                                                                                                        </rdf:rest>
                                                                                                     </rdf:Description>
                                                                                                 </rdf:rest>
                                                                                             </rdf:Description>
@@ -2543,6 +2549,15 @@
         <es_tragico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</es_tragico>
         <final_feliz rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</final_feliz>
         <nombre_genero rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genero Drama</nombre_genero>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_fantasia_criatura_acuatica -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_fantasia_criatura_acuatica">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Fantasia"/>
+        <nombre_genero rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genero fantasia</nombre_genero>
     </owl:NamedIndividual>
     
 
