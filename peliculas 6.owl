@@ -1652,7 +1652,7 @@
                         <rdf:rest>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                <rdf:first>mejor guion orignal</rdf:first>
+                                <rdf:first>mejor guion original</rdf:first>
                                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
                             </rdf:Description>
                         </rdf:rest>
@@ -2157,6 +2157,15 @@
         <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La película narra los hechos sucedidos en Norteamérica en 1957 sobre la detención del espía ruso Rudolf Abel y su enjuiciamiento, de cuya defensa se encargó al abogado James B. Donovan y también el posterior incidente del U-2, ocurrido en 1960</sinopsis>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El puente de los espías y Puente de espías</titulo>
         <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bridge of spies</titulo_original>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Alison_Williams">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Dejame_salir"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">167</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadounidense</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alison Howell Williams</nombre_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femenino</sexo_actor>
     </owl:NamedIndividual>
     
 
@@ -2185,11 +2194,40 @@
         <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reino Unido UK</nacionalidad>
         <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Christian Bale</nombre_actor>
         <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</sexo_actor>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Call_Me_By_Your_Name"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">196</altura>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadounidense</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Armand Douglas Hammer</nombre_actor>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
     </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_Ciencia_ficcion -->
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Black_Panther -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Black_Panther">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <es_del_genero rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_Superheroes"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Chadwick_Boseman"/>
+        <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
+        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG-13</clasificacion>
+        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marvel Studios &amp;&amp; Walt Disney Studios Motion Pictures</compania_productora>
+        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ryan Coogler</director>
+        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">134</duracion>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-02-16T00:00:00</fecha_estreno>
+        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ingles</idioma_original>
+        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</pais_origen>
+        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Situada después de los eventos de Capitán América: Civil War, T&apos;Challa, hijo del fallecido rey T&apos;Chaka, asciende al trono de Wakanda y se convierte en Pantera Negra, pero descubre que reinar su nación será un desafío para él, ya que no solo debe gobernar y proteger su país, sino también derrotar a un viejo enemigo del pasado, que amenaza a todo el mundo.</sinopsis>
+        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Panther</titulo>
+        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Panther</titulo_original>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Bradley_Cooper -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_Ciencia_ficcion">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Ciencia_ficcion"/>
@@ -2205,7 +2243,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
         <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tom_Hanks"/>
         <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steven Spielberg</director>
-        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">141</duracion>
+        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">141</duracion>
         <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-04T00:00:00</fecha_estreno>
         <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</idioma_original>
         <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La película narra los hechos sucedidos en Norteamérica en 1957 sobre la detención del espía ruso Rudolf Abel y su enjuiciamiento, de cuya defensa se encargó al abogado James B. Donovan y también el posterior incidente del U-2, ocurrido en 1960</sinopsis>
@@ -2221,6 +2259,20 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Drama"/>
         <es_del_genero rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Bridge_of_Spies"/>
         <descripcion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El drama en el cine implica un filme donde se desarrolla a fondo la caracterización de los personajes, de una manera realista, y dejando aflorar sus emociones y sus sentimientos, lo que de una u otra forma genera conflictos entre ellos y aún consigo mismo, y/o con la sociedad, y/o con la propia naturaleza.</descripcion>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Call_Me_By_Your_Name">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Timothée_Chalamet"/>
+        <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
+        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
+        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frensy Film Company</compania_productora>
+        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luca Guadagnino</director>
+        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">132</duracion>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-22T00:00:00</fecha_estreno>
+        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italiano</idioma_original>
+        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italia</pais_origen>
+        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">En Italia, en la década de 1980, en medio del esplendor del verano, Elio y Oliver descubren la embriagadora belleza de un deseo naciente que va a alterar sus vidas para siempre.</sinopsis>
+        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Call Me By Your Name</titulo>
+        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Call Me By Your Name</titulo_original>
     </owl:NamedIndividual>
     
 
@@ -2241,11 +2293,11 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Charlize_Theron">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
         <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mad_Max_-_Fury_Road"/>
-        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">177</altura>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">44</edad>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">177</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</edad>
         <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sudafrica</nacionalidad>
         <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Charlize Theron</nombre_actor>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</sexo_actor>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femenino</sexo_actor>
     </owl:NamedIndividual>
     
 
@@ -2281,12 +2333,54 @@
         <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
     </owl:NamedIndividual>
     
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Cillian_Murphy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Cillian_Murphy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Dunkerque"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">175</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irlandesa</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cillian Murphy</nombre_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Daniel_Day-Lewis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Daniel_Day-Lewis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#El_hilo_invisible"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Vicky_Krieps"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Britanico e Irlandes</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daniel Michael Blake Day-Lewis</nombre_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Daniel_Kaluuya -->
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_western -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_western">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Western"/>
         <descripcion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wéstern es un extranjerismo adaptado al español e incorporado en el Diccionario de la lengua española de la Asociación de Academias de la Lengua Española. A estas obras cinematográficas también se las suele llamar películas de vaqueros.</descripcion>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Daniel_Kaluuya">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Dejame_salir"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">174</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Britanica</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daniel Kaluuya</nombre_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
     </owl:NamedIndividual>
     
 
@@ -2324,6 +2418,76 @@
         <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">En Gotham City, el comediante con problemas mentales Arthur Fleck es ignorado y maltratado por la sociedad. Luego se embarca en una espiral descendente de revolución y crímenes sangrientos. Este camino lo pone cara a cara con su alter ego: el Joker.</sinopsis>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joker</titulo>
         <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joker</titulo_original>
+        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blumhouse Productions</compania_productora>
+        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jordan Peele</director>
+        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104</duracion>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-24T00:00:00</fecha_estreno>
+        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ingles</idioma_original>
+        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</pais_origen>
+        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris va a conocer a los padres de Rose, su novia. Al principio se muestran encantadores, si bien un tanto nerviosos. Chris supone que se debe a que él es negro, pero un poco más tarde descubre que sus suegros ocultan un secreto espeluznante.</sinopsis>
+        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dejame salir</titulo>
+        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Get Out</titulo_original>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Dunkerque -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Dunkerque">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <es_del_genero rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_Guerra_Primera_Guerra_Mundial"/>
+        <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
+        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG-13</clasificacion>
+        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Syncopy Inc</compania_productora>
+        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Christopher Nolan</director>
+        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">106</duracion>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-07-21T00:00:00</fecha_estreno>
+        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</idioma_original>
+        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Britanico</pais_origen>
+        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">En mayo de 1940, durante la Segunda Guerra Mundial, Alemania avanza hacia Francia, atrapando a las tropas aliadas en las playas de Dunkerque. Bajo protección aérea y terrestre de las fuerzas británicas y francesas, las tropas son evacuadas lenta y metódicamente de la playa utilizando cualquier embarcación militar o civil disponible. Al final de la heroica misión, 330.000 soldados franceses, británicos, belgas y holandeses son evacuados sanos y salvos</sinopsis>
+        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dunkerque</titulo>
+        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dunkirk</titulo_original>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#El_Vicio_Del_Poder -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#El_Vicio_Del_Poder">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Amy_Adams"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Christian_Bale"/>
+        <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
+        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
+        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annapurna Pictures &amp;&amp; Plan B Entertainment &amp;&amp; Gary Sanchez Productions</compania_productora>
+        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adam Ferrel</director>
+        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">132</duracion>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-04T00:00:00</fecha_estreno>
+        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ingles</idioma_original>
+        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</pais_origen>
+        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">George W. Bush, gobernador de Texas, elige como su mano derecha para las elecciones presidenciales del año 2000 a Dick Cheney, presidente ejecutivo de Halliburton Co. Esta es la historia de cómo Cheney llegó a disponer de un poder casi ilimitado.</sinopsis>
+        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EL Vicio Del Poder</titulo>
+        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vice</titulo_original>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#El_hilo_invisible -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#El_hilo_invisible">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Daniel_Day-Lewis"/>
+        <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
+        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
+        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annapurna Pictures</compania_productora>
+        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paul Thomas Anderson</director>
+        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">130</duracion>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-25T00:00:00</fecha_estreno>
+        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</idioma_original>
+        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estados unidos</pais_origen>
+        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Londres, década de 1950, Reynolds Woodcock y su hermana, Cyril, son los diseñadores de moda más aclamados de Inglaterra. Sin embargo, todo cambia cuando Reynolds encuentra en la joven Alma a su musa y su amante.</sinopsis>
+        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El hilo invisible</titulo>
+        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phantom thread</titulo_original>
     </owl:NamedIndividual>
     
 
@@ -2338,6 +2502,21 @@
         <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</nacionalidad>
         <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kurt Russell</nombre_actor>
         <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</sexo_actor>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#El_instante_mas_oscuro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Gary_Oldman"/>
+        <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Lily_James"/>
+        <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
+        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG-13</clasificacion>
+        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Perfect World Pictures</compania_productora>
+        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joe Wright</director>
+        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125</duracion>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-01T00:00:00</fecha_estreno>
+        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</idioma_original>
+        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reino Unido</pais_origen>
+        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El destino de Europa occidental depende de Winston Churchill en los primeros días de la Segunda Guerra Mundial. El recién nombrado primer ministro británico debe decidir si negocia con Hitler o si lucha contra su temible potencial bélico. Durante las siguientes cuatro semanas de 1940, Churchill consolida su legado, ya que sus valientes decisiones y liderazgo ayudan a cambiar el curso de la historia mundial.</sinopsis>
+        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Las horas mas oscuras</titulo>
+        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Darkest Hour</titulo_original>
     </owl:NamedIndividual>
     
 
@@ -2371,6 +2550,27 @@
         <subgenero_accion rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></subgenero_accion>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mad Max: Furia en el camino</titulo>
         <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mad Max  Fury Road</titulo_original>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matt Damon</nombre_actor>
+        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</pais_origen>
+        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El diseñador de automóviles estadounidense Carroll Shelby y el conductor Ken Miles luchan contra la interferencia corporativa y las leyes de la física para construir un automóvil de carreras revolucionario para Ford con el fin de derrotar a Ferrari en las 24 Horas de Le Mans en 1966.</sinopsis>
+        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contra lo imposible</titulo>
+        <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ford v Ferrari</titulo_original>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Frances_McDormand -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Frances_McDormand">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tres_anuncions_en_las_afueras"/>
+        <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_oscar_a_mejor_actriz_2018"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">165</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadounidense</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frances McDormand</nombre_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femenino</sexo_actor>
     </owl:NamedIndividual>
     
 
@@ -2395,6 +2595,14 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_Ciencia_ficcion">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Ciencia_ficcion"/>
         <es_del_genero rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_Ciencia_ficcion"/>
+        <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#El_instante_mas_oscuro"/>
+        <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_oscar_mejor_actor_2018"/>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">172</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Britanica</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gary Oldman</nombre_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
     </owl:NamedIndividual>
     
 
@@ -2407,8 +2615,7 @@
         <descripcion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genero crimen con antagonista asesino y participa la policia en su busqueda.</descripcion>
         <nombre_genero rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crimen policiaco</nombre_genero>
         <personajes_antagonicos rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asesino</personajes_antagonicos>
-        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El diseñador de automóviles estadounidense Carroll Shelby y el conductor Ken Miles luchan contra la interferencia corporativa y las leyes de la física para construir un automóvil de carreras revolucionario para Ford con el fin de derrotar a Ferrari en las 24 Horas de Le Mans en 1966.</sinopsis>
-        <subgenero_crimen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;asesinatos&quot;</subgenero_crimen>
+        <subgenero_crimen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asesinatos</subgenero_crimen>
     </owl:NamedIndividual>
     
 
@@ -2450,16 +2657,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_accion -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_accion">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Accion"/>
-        <es_del_genero rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_accion"/>
-        <descripcion>El llamado cine de acción es un género cinematográfico donde prima la espectacularidad de las imágenes por medio de efectos especiales de estilo &quot;clásico&quot;.</descripcion>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_comedia_drama -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_comedia_drama">
@@ -2469,21 +2666,6 @@
         <es_comedia_fisica rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</es_comedia_fisica>
         <es_satirica rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</es_satirica>
         <nombre_genero rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Comedia</nombre_genero>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_crimen -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_crimen">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Crimen"/>
-        <es_el_genero_de rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joker"/>
-        <descripcion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Usualmente al comienzo se ofrece al espectador los antecedentes de un grave crimen, acabando esta parte cuando efectivamente se comete dicho acto criminal y se arma el suspenso.</descripcion>
-        <nombre_genero rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crimen</nombre_genero>
-        <personajes_antagonicos rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asesino</personajes_antagonicos>
-        <subgenero_crimen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">detectives</subgenero_crimen>
-        <participan_las_fuerzas_del_orden rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</participan_las_fuerzas_del_orden>
-        <tiene_asesinatos rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tiene_asesinatos>
     </owl:NamedIndividual>
     
 
@@ -2508,7 +2690,13 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_fantasia_criatura_acuatica">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Fantasia"/>
+        <es_el_genero_de rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#La_forma_del_agua"/>
+        <nombre_genero rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genero fantasia</nombre_genero>
         <nombre_genero rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genero fantasia</nombre_genero>
+        <tipo_de_criatura_fantastica rdf:datatype="http://www.w3.org/2001/XMLSchema#string">criatura acuatica</tipo_de_criatura_fantastica>
+        <tipo_de_exploracion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exploracion circular</tipo_de_exploracion>
+        <tipo_de_mundo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mundos frontera</tipo_de_mundo>
+        <tipo_fantasia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fantasia oscura</tipo_fantasia>
     </owl:NamedIndividual>
     
 
@@ -2597,6 +2785,11 @@
         <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-10-02T00:00:00</fecha_estreno>
         <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-12-07T00:00:00</fecha_estreno>
         <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</idioma_original>
+        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jon Peters Entertainment</compania_productora>
+        <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bradley Cooper</director>
+        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">134</duracion>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-31T00:00:00</fecha_estreno>
+        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ingles</idioma_original>
         <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</pais_origen>
         <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centrada pocos años después de la guerra de Secesión, comienza con una diligencia atravesando las ventosas llanuras de Wyoming en un invierno con una tormenta de nieve. Los pasajeros, el cazarrecompensas John Ruth  y su fugitiva Daisy Domergue , viajan camino al pueblo de Red Rock como los únicos pasajeros de la diligencia, donde John Ruth, conocido en esas tierras como The Hangman (la Horca), llevará a Domergue a la justicia para ser ahorcada y cobrar la recompensa.</sinopsis>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Los odiosos ocho</titulo>
@@ -2620,10 +2813,10 @@
         <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#John_David_Washington"/>
         <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
         <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
-        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blumhouse Production &amp;&amp; Monkey Production &amp;&amp; QC Entertainment &amp;&amp; Perfect Worl Pictures</compania_productora>
+        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blumhouse Production</compania_productora>
         <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spike Lee</director>
         <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">128</duracion>
-        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-14</fecha_estreno>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-14T00:00:00</fecha_estreno>
         <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ingles</idioma_original>
         <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</pais_origen>
         <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A principios de los años setenta, una época de gran agitación social con la encarnizada lucha por los derechos civiles como telón de fondo, Ron Stallworth se convierte en el primer agente negro del departamento de policía de Colorado Springs. Pero es recibido con escepticismo y hostilidad por los mandos y algunos de los agentes. Sin amedrentarse, decide seguir adelante y hacer algo por su comunidad llevando a cabo una misión muy peligrosa: infiltrarse en el Ku Klux Klan y exponerlo ante la ciudad.</sinopsis>
@@ -2643,7 +2836,6 @@
         <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">173</altura>
         <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</edad>
         <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadounidense</nacionalidad>
-        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadunidense</nacionalidad>
         <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joaquin Phoenix</nombre_actor>
         <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71</peso>
         <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
@@ -2682,7 +2874,6 @@ Alpha Pictures</compania_productora>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joker">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
         <es_del_genero rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_Crimen_Asesino_Policias"/>
-        <es_del_genero rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_crimen"/>
         <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mejor_Banda_Sonora_2019"/>
         <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joaquin_Phoenix"/>
         <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Robert_De_Niro"/>
@@ -2727,11 +2918,11 @@ Alpha Pictures</compania_productora>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Kurt_Russell">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
         <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#The_Hateful_Eight"/>
-        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">180</altura>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">69</edad>
-        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</nacionalidad>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">180</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadounidense</nacionalidad>
         <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kurt Russell</nombre_actor>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</sexo_actor>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
     </owl:NamedIndividual>
     
 
@@ -2745,12 +2936,12 @@ Alpha Pictures</compania_productora>
         <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Rachel_Weisz"/>
         <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
         <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
-        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Element Pictures &amp;&amp; Scarlet Films &amp;&amp; Film4 Productions &amp;&amp; Waypoint Entertainment</compania_productora>
+        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Element Pictures</compania_productora>
         <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yorgos Lanthimos</director>
         <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">119</duracion>
-        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-23</fecha_estreno>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-23T00:00:00</fecha_estreno>
         <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ingles</idioma_original>
-        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reino Unido &amp;&amp; USA</pais_origen>
+        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reino Unido</pais_origen>
         <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A principios del s. XVIII, Inglaterra está en guerra con Francia y la enfermiza reina Anne delega sus responsabilidades en su amiga Lady Sarah. La llegada de una sirvienta dotada de un talento especial, Abigail, pone en peligro la posición de Sarah.</sinopsis>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Favorita</titulo>
         <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Favourite</titulo_original>
@@ -2767,8 +2958,8 @@ Alpha Pictures</compania_productora>
         <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
         <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Searchlight Pictures</compania_productora>
         <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guillermo del Toro</director>
-        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">123</duracion>
-        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-12-08T00:00:00</fecha_estreno>
+        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">123</duracion>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-08T00:00:00</fecha_estreno>
         <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</idioma_original>
         <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estados Unidos</pais_origen>
         <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baltimore, década de 1960. Elisa, muda desde que era un bebé, trabaja como limpiadora nocturna en un centro de investigación aeroespacial. Una noche, mientras está limpiando en un zona de alta seguridad, ve cómo llevan al laboratorio una cápsula con un extraño ser en su interior. Se trata de un hombre anfibio, del que se enamora. A partir de entonces, Elisa elabora un plan para liberar al mutante.</sinopsis>
@@ -2787,12 +2978,12 @@ Alpha Pictures</compania_productora>
         <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
         <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scott Rudin Productions</compania_productora>
         <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Greta gerwig</director>
-        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">93</duracion>
-        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-12-25T00:00:00</fecha_estreno>
+        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</duracion>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-25T00:00:00</fecha_estreno>
         <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ingles</idioma_original>
         <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estados Unidos</pais_origen>
-        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trama. Christine &quot;Lady Bird&quot; McPherson es una estudiante de 17 años que cursa el último año en una escuela secundaria católica en los suburbios de Sacramento, California, en 2002. Ella vive con sus padres, con quienes tiene una relación tensa, su hermano mayor, que es adoptado, y la novia de su hermano.</sinopsis>
-        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lady bird</titulo>
+        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trama. Christine Lady Bird McPherson es una estudiante de 17 años que cursa el último año en una escuela secundaria católica en los suburbios de Sacramento, California, en 2002. Ella vive con sus padres, con quienes tiene una relación tensa, su hermano mayor, que es adoptado, y la novia de su hermano.</sinopsis>
+        <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lady Bird</titulo>
         <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lady Bird</titulo_original>
     </owl:NamedIndividual>
     
@@ -2819,11 +3010,11 @@ Alpha Pictures</compania_productora>
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
         <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#The_Revenant"/>
         <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Actor_Principal_2016"/>
-        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">183</altura>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">45</edad>
-        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</nacionalidad>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">183</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadounidense</nacionalidad>
         <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leonardo DiCaprio</nombre_actor>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</sexo_actor>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
     </owl:NamedIndividual>
     
 
@@ -2833,12 +3024,12 @@ Alpha Pictures</compania_productora>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Lily_James">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
         <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#El_instante_mas_oscuro"/>
-        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">170</altura>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">31</edad>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">170</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</edad>
         <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Britanica</nacionalidad>
         <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lily Chloe Ninette Thomson</nombre_actor>
-        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#int">58</peso>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenina</sexo_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femenino</sexo_actor>
     </owl:NamedIndividual>
     
 
@@ -2852,7 +3043,7 @@ Alpha Pictures</compania_productora>
         <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG-13</clasificacion>
         <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amblin Entertainment</compania_productora>
         <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steven Spielberg</director>
-        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">115</duracion>
+        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">115</duracion>
         <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-14T00:00:00</fecha_estreno>
         <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</idioma_original>
         <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estados Unidos</pais_origen>
@@ -2867,14 +3058,12 @@ Alpha Pictures</compania_productora>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mad_Max_-_Fury_Road">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
-        <es_del_genero rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_accion"/>
         <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Charlize_Theron"/>
         <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tom_Hardy"/>
         <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
         <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-14T00:00:00</fecha_estreno>
         <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</idioma_original>
         <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La película está ambientada en una futura y post-apocaliptica Tierra desierta, donde la gasolina y el agua son productos escasos. Sigue a Max Rockatansky (Tom Hardy), que se une a Imperator Furiosa (Charlize Theron) para huir del líder de culto Inmortal</sinopsis>
-        <subgenero_accion rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></subgenero_accion>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mad Max: Furia en el camino</titulo>
         <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mad Max  Fury Road</titulo_original>
     </owl:NamedIndividual>
@@ -2917,13 +3106,10 @@ Alpha Pictures</compania_productora>
         <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Ford_v_Ferrari"/>
         <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#The_Martian"/>
         <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">178</altura>
-        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#string">178</altura>
         <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</edad>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50</edad>
         <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadounidense</nacionalidad>
         <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</nacionalidad>
         <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matt Damon</nombre_actor>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</sexo_actor>
         <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
     </owl:NamedIndividual>
     
@@ -3040,12 +3226,12 @@ Alpha Pictures</compania_productora>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Meryl_Streep">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
         <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Los_archivos_del_pentagono"/>
-        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#string">172</altura>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">71</edad>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">172</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71</edad>
         <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadounidense</nacionalidad>
         <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mary Louise Streep</nombre_actor>
-        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">62</peso>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenina</sexo_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femenino</sexo_actor>
     </owl:NamedIndividual>
     
 
@@ -3053,6 +3239,7 @@ Alpha Pictures</compania_productora>
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Olivia_Colman -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Olivia_Colman">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
         <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#La_Favorita"/>
         <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">170</altura>
         <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</edad>
@@ -3097,7 +3284,7 @@ Alpha Pictures</compania_productora>
         <es_protagonista_de_la_pelicula rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</es_protagonista_de_la_pelicula>
         <ha_sido_ganador_anteriormente rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ha_sido_ganador_anteriormente>
         <nombre_academia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Broadcast Film Critics Association</nombre_academia>
-        <tipo_mejor_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">comedia</tipo_mejor_actor>
+        <tipo_mejor_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mejor actor comedia o musical</tipo_mejor_actor>
         <descripcion_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El premio de la Crítica Cinematográfica al mejor actor de comedia es uno de los premios que se otorgan a las personas que trabajan en la industria del cine por la Broadcast Film Critics Association.</descripcion_premio>
         <ganador rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ganador>
     </owl:NamedIndividual>
@@ -3123,7 +3310,7 @@ Alpha Pictures</compania_productora>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Mejor_Pelicula_Extrajera_2019">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Pelicula"/>
         <se_premio_a rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Parasitos"/>
-        <anio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</anio>
+        <anio rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</anio>
         <es_americana rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</es_americana>
         <nombre_academia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Academia de Artes y Ciencias Cinematográficas de Estados Unidos</nombre_academia>
         <nombre_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mejor Pelicula Extranjera 2019</nombre_premio>
@@ -3141,8 +3328,8 @@ Alpha Pictures</compania_productora>
         <es_protagonista_de_la_pelicula rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</es_protagonista_de_la_pelicula>
         <ha_sido_ganador_anteriormente rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ha_sido_ganador_anteriormente>
         <nombre_academia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAACP Image Award</nombre_academia>
-        <nombre_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mejor Actor De Cine</nombre_premio>
-        <tipo_mejor_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cine</tipo_mejor_actor>
+        <nombre_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mejor actor de cine 2019</nombre_premio>
+        <tipo_mejor_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mejor actor principal</tipo_mejor_actor>
         <descripcion_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">es un galardón otorgado por la Asociación Nacional Americana para el Avance de la Gente de Color para honrar a las personas excepcionales negras en el cine</descripcion_premio>
         <ganador rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ganador>
     </owl:NamedIndividual>
@@ -3154,10 +3341,10 @@ Alpha Pictures</compania_productora>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Actor_Principal_2016">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actor"/>
         <se_premio_a rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Leonardo_DiCaprio"/>
-        <anio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2016</anio>
+        <anio rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</anio>
         <nombre_academia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Academia de Artes y Ciencias Cinematográficas de Estados Unidos</nombre_academia>
         <nombre_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Premio Oscar Mejor Actor principal</nombre_premio>
-        <tipo_mejor_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Principal</tipo_mejor_actor>
+        <tipo_mejor_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mejor actor principal</tipo_mejor_actor>
         <descripcion_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Premio al mejor actor principal 2016</descripcion_premio>
         <ganador rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ganador>
     </owl:NamedIndividual>
@@ -3169,7 +3356,7 @@ Alpha Pictures</compania_productora>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Guion">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Guion"/>
         <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#TheBigShort"/>
-        <tipo_premio_guion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Premio al mejor Guion del año en curso</tipo_premio_guion>
+        <tipo_premio_guion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mejor guion original</tipo_premio_guion>
     </owl:NamedIndividual>
     
 
@@ -3200,7 +3387,7 @@ Alpha Pictures</compania_productora>
         <es_protagonista_de_la_pelicula rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</es_protagonista_de_la_pelicula>
         <ha_sido_ganador_anteriormente rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ha_sido_ganador_anteriormente>
         <nombre_academia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Academia de Artes y Ciencias Cinematográficas de Estados Unidos</nombre_academia>
-        <nombre_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mejor Actriz Princial</nombre_premio>
+        <nombre_premio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mejor Actriz Princial 2019</nombre_premio>
         <tipo_mejor_actriz rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mejor actriz principal</tipo_mejor_actriz>
     </owl:NamedIndividual>
     
@@ -3212,6 +3399,7 @@ Alpha Pictures</compania_productora>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_oscar_a_mejor_actriz_2018">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actor"/>
+        <se_premio_a rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Frances_McDormand"/>
     </owl:NamedIndividual>
     
 
@@ -3231,7 +3419,7 @@ Alpha Pictures</compania_productora>
         <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#La_Favorita"/>
         <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">168</altura>
         <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</edad>
-        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Britanica &amp;&amp; Estadounidense</nacionalidad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Britanica</nacionalidad>
         <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rachel Hannah Weisz</nombre_actor>
         <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</peso>
         <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femenino</sexo_actor>
@@ -3259,7 +3447,7 @@ Alpha Pictures</compania_productora>
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
         <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Joker"/>
         <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">177</altura>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">77</edad>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77</edad>
         <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadunidense</nacionalidad>
         <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Robert De Niro</nombre_actor>
         <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</peso>
@@ -3279,9 +3467,9 @@ Alpha Pictures</compania_productora>
         <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Participant Media &amp;&amp; Esperanto Filmoj</compania_productora>
         <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alfonso Cuaron</director>
         <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">135</duracion>
-        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-30</fecha_estreno>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-30T00:00:00</fecha_estreno>
         <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Español Mixteco</idioma_original>
-        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mexico &amp;&amp; USA</pais_origen>
+        <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mexico</pais_origen>
         <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">En la colonia Roma, de Ciudad de México, dos empleadas domésticas ayudan a una madre a criar a sus cuatro hijos durante las largas ausencias de su esposo. Una de las jóvenes, Cleo, se hace cargo de los niños como si fueran propios, a pesar de estar atravesando un momento difícil.</sinopsis>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roma</titulo>
         <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roma</titulo_original>
@@ -3294,12 +3482,12 @@ Alpha Pictures</compania_productora>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Sally_Hawkins">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
         <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#La_forma_del_agua"/>
-        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">165</altura>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">44</edad>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">165</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</edad>
         <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Britanica</nacionalidad>
         <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sally Cecilia Hawkins</nombre_actor>
-        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#int">55</peso>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenina</sexo_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femenino</sexo_actor>
     </owl:NamedIndividual>
     
 
@@ -3315,6 +3503,12 @@ Alpha Pictures</compania_productora>
         <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inglaterra</nacionalidad>
         <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tom Hardy</nombre_actor>
         <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</sexo_actor>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">175</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadounidense</nacionalidad>
+        <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sam Rockwell</nombre_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
     </owl:NamedIndividual>
     
 
@@ -3324,11 +3518,11 @@ Alpha Pictures</compania_productora>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Samuel_L._Jackson">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
         <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#The_Hateful_Eight"/>
-        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">189</altura>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">72</edad>
-        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</nacionalidad>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">189</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadounidense</nacionalidad>
         <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Samuel L. Jackson</nombre_actor>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</sexo_actor>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
     </owl:NamedIndividual>
     
 
@@ -3338,12 +3532,11 @@ Alpha Pictures</compania_productora>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Saoirse_Ronan">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
         <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Lady_Bird"/>
-        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">168</altura>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">26</edad>
-        <lugar_de_los_acontecimientos rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadounidense e Irlandesa</lugar_de_los_acontecimientos>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">168</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</edad>
         <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saoirse Ronan</nombre_actor>
-        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#int">155</peso>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenina</sexo_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">155</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femenino</sexo_actor>
     </owl:NamedIndividual>
     
 
@@ -3365,14 +3558,10 @@ Alpha Pictures</compania_productora>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#TheBigShort">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
-        <es_del_genero rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_accion"/>
         <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Guion"/>
         <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Christian_Bale"/>
-        <descripcion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El llamado cine de acción es un género cinematográfico donde prima la espectacularidad de las imágenes por medio de efectos especiales de estilo clásico.</descripcion>
         <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adam McKay</director>
-        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-11-12T00:00:00</fecha_estreno>
-        <subgenero_accion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">accion</subgenero_accion>
-        <tipo_premio_guion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adam McKay &amp; Charles Randolph &amp; Michael Lewis Año 2016</tipo_premio_guion>
+        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-12T00:00:00</fecha_estreno>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La gran apuesta</titulo>
         <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The big short</titulo_original>
     </owl:NamedIndividual>
@@ -3390,8 +3579,7 @@ Alpha Pictures</compania_productora>
         <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
         <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shiny Penny &amp; FilmColony</compania_productora>
         <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quentin Tarantino</director>
-        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">187</duracion>
-        <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-10-02T00:00:00</fecha_estreno>
+        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">187</duracion>
         <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-12-07T00:00:00</fecha_estreno>
         <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</idioma_original>
         <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</pais_origen>
@@ -3406,8 +3594,8 @@ Alpha Pictures</compania_productora>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#The_Martian">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
         <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Matt_Damon"/>
-        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG-7</clasificacion>
-        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TSG Entertainment &amp; 20th Century Studios</compania_productora>
+        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG-13</clasificacion>
+        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20th Century Studios</compania_productora>
         <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ridley Scott</director>
         <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T00:00:00</fecha_estreno>
         <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Durante una misión a Marte de la nave tripulada Ares III, una fuerte tormenta se desata, por lo que, tras haber dado por desaparecido y muerto al astronauta Mark Watney (Matt Damon), sus compañeros toman la decisión de irse; sin embargo, ha sobrevivido, pero está solo y con pocos recursos en el planeta</sinopsis>
@@ -3424,16 +3612,10 @@ Alpha Pictures</compania_productora>
         <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premio_Oscar_Actor_Principal_2016"/>
         <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Leonardo_DiCaprio"/>
         <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tom_Hardy"/>
-        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG-15</clasificacion>
-        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regency Enterprises
-RatPac Entertainment
-New Regency Pictures
-Anonymous Content
-M Productions
-Appian Way
-Alpha Pictures</compania_productora>
+        <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG-13</clasificacion>
+        <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New Regency Pictures</compania_productora>
         <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alejandro González Iñárritu</director>
-        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">156</duracion>
+        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">156</duracion>
         <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-06T00:00:00</fecha_estreno>
         <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</pais_origen>
         <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">En 1823, Hugh Glass guía a un grupo de tramperos pertenecientes a Andrew Henry en el territorio septentrional desorganizado de Luisiana cuando de repente sufren una emboscada por un grupo de Indios arikara, que les roban las pieles que llevaban. Sin embargo, algunos logran escapar</sinopsis>
@@ -3449,11 +3631,11 @@ Alpha Pictures</compania_productora>
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
         <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Call_Me_By_Your_Name"/>
         <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Lady_Bird"/>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">182</edad>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</edad>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">182</edad>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</edad>
         <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadounidense</nacionalidad>
         <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Timothée Chalamet</nombre_actor>
-        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#int">70</peso>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</peso>
         <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
     </owl:NamedIndividual>
     
@@ -3464,11 +3646,11 @@ Alpha Pictures</compania_productora>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tom_Hanks">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
         <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Bridge_of_Spies"/>
-        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">183</altura>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">64</edad>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">183</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</edad>
         <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</nacionalidad>
         <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tom hanks</nombre_actor>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</sexo_actor>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
     </owl:NamedIndividual>
     
 
@@ -3478,11 +3660,11 @@ Alpha Pictures</compania_productora>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tom_Hardy">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
         <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mad_Max_-_Fury_Road"/>
-        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">175</altura>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">43</edad>
-        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inglaterra</nacionalidad>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">175</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</edad>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Britanico</nacionalidad>
         <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tom Hardy</nombre_actor>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</sexo_actor>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
     </owl:NamedIndividual>
     
 
@@ -3499,7 +3681,7 @@ Alpha Pictures</compania_productora>
         <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</duracion>
         <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</idioma_original>
         <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</pais_origen>
-        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cuando un juguete nuevo llamado &quot;Forky&quot; se une a Woody y la pandilla, un viaje por carretera junto a viejos y nuevos amigos revela cuán grande puede ser el mundo para un juguete.</sinopsis>
+        <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cuando un juguete nuevo llamado Forky se une a Woody y la pandilla, un viaje por carretera junto a viejos y nuevos amigos revela cuán grande puede ser el mundo para un juguete.</sinopsis>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toy Story 4</titulo>
         <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toy Story 4</titulo_original>
     </owl:NamedIndividual>
@@ -3517,9 +3699,9 @@ Alpha Pictures</compania_productora>
         <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
         <compania_productora rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Film4 Productions</compania_productora>
         <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Martin McDonagh</director>
-        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">115</duracion>
+        <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">115</duracion>
         <fecha_estreno rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-10T00:00:00</fecha_estreno>
-        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</idioma_original>
+        <idioma_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</idioma_original>
         <pais_origen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estados Unidos</pais_origen>
         <sinopsis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Una mujer cuya hija fue asesinada se enfrenta a la policía usando los carteles publicitarios para denunciar que han pasado meses desde que se cometió el crimen y no solo no han resuelto nada, sino que parecen no tener interés en hacerlo.</sinopsis>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tres anuncios por un crimen</titulo>
@@ -3533,12 +3715,12 @@ Alpha Pictures</compania_productora>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Vicky_Krieps">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
         <actua_en rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#El_hilo_invisible"/>
-        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#int">175</altura>
-        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">37</edad>
+        <altura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">175</altura>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</edad>
         <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luxemburguesa</nacionalidad>
         <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vicky Krieps</nombre_actor>
-        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#int">55</peso>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenina</sexo_actor>
+        <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</peso>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femenino</sexo_actor>
     </owl:NamedIndividual>
     
 
@@ -3553,7 +3735,7 @@ Alpha Pictures</compania_productora>
         <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadounidense</nacionalidad>
         <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viggo Peter Mortensen</nombre_actor>
         <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</peso>
-        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</sexo_actor>
+        <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
     </owl:NamedIndividual>
     
 
@@ -3585,14 +3767,6 @@ Alpha Pictures</compania_productora>
     
 
 
-    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#genero_romance -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#genero_romance">
-        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Romance"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#1917 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#1917">
@@ -3614,58 +3788,6 @@ Alpha Pictures</compania_productora>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1917</titulo>
         <titulo_original rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1917</titulo_original>
     </owl:NamedIndividual>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // General axioms
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Accion"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Animacion"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Aventura"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Ciencia_ficcion"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Comedia"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Crimen"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Deportes"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Documental"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Drama"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Fantasia"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Guerra"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Musical"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Romance"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Terror"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Western"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actor"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actriz"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Director"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Guion"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Pelicula"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Produccion"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Sonido"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Generos"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premios"/>
-        </owl:members>
-    </rdf:Description>
 </rdf:RDF>
 
 
