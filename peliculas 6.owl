@@ -60,7 +60,21 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#actua_en">
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#protagonizada_por"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#dirige -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#dirige">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_dirigida_por"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Directores"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
     </owl:ObjectProperty>
     
@@ -70,8 +84,19 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_del_genero">
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_el_genero_de"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Generos"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_dirigida_por -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_dirigida_por">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Directores"/>
     </owl:ObjectProperty>
     
 
@@ -79,6 +104,8 @@
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_el_genero_de -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_el_genero_de">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Generos"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
     </owl:ObjectProperty>
@@ -89,6 +116,8 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#gano">
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#se_premio_a"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premios"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premios"/>
@@ -99,6 +128,8 @@
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#protagonizada_por -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#protagonizada_por">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
     </owl:ObjectProperty>
@@ -108,6 +139,8 @@
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#se_premio_a -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#se_premio_a">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premios"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
@@ -193,6 +226,15 @@
                 </owl:oneOf>
             </rdfs:Datatype>
         </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#calificacion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#calificacion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
     
 
@@ -304,6 +346,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#edad">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Directores"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
     
@@ -438,6 +481,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#fecha_nacimiento -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#fecha_nacimiento">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Directores"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#final_feliz -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#final_feliz">
@@ -560,6 +612,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#nacionalidad">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Directores"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -601,6 +654,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#nombre_director -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#nombre_director">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Directores"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#nombre_genero -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#nombre_genero">
@@ -614,6 +676,15 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#nombre_premio">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Premios"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#ocupacion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#ocupacion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Directores"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -1935,7 +2006,27 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#se_premio_a"/>
-                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Directores"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Directores -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Directores">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#dirige"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#gano"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Director"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -2036,14 +2127,14 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#protagonizada_por"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#es_dirigida_por"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Directores"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#gano"/>
-                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Director"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#protagonizada_por"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2211,6 +2302,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Black_Panther">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
         <es_del_genero rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_Superheroes"/>
+        <es_dirigida_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Ryan_Coogler"/>
         <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Chadwick_Boseman"/>
         <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
         <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG-13</clasificacion>
@@ -2241,6 +2333,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Bridge_of_Spies">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <es_dirigida_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Steven_Spielberg"/>
         <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Tom_Hanks"/>
         <director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steven Spielberg</director>
         <duracion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">141</duracion>
@@ -2261,6 +2354,7 @@
         <descripcion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El drama en el cine implica un filme donde se desarrolla a fondo la caracterización de los personajes, de una manera realista, y dejando aflorar sus emociones y sus sentimientos, lo que de una u otra forma genera conflictos entre ellos y aún consigo mismo, y/o con la sociedad, y/o con la propia naturaleza.</descripcion>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Call_Me_By_Your_Name">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
+        <es_dirigida_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Luca_Guadagnino"/>
         <protagonizada_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Timothée_Chalamet"/>
         <apta_para_todo_publico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</apta_para_todo_publico>
         <clasificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</clasificacion>
@@ -3054,6 +3148,20 @@ Alpha Pictures</compania_productora>
     
 
 
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Luca_Guadagnino -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Luca_Guadagnino">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Directores"/>
+        <dirige rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Call_Me_By_Your_Name"/>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</edad>
+        <fecha_nacimiento rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1971-07-10T00:00:00</fecha_nacimiento>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italiana</nacionalidad>
+        <nombre_director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luca Guadagnino</nombre_director>
+        <ocupacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Director de cine, guionista y productor de cine</ocupacion>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mad_Max_-_Fury_Road -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mad_Max_-_Fury_Road">
@@ -3477,6 +3585,20 @@ Alpha Pictures</compania_productora>
     
 
 
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Ryan_Coogler -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Ryan_Coogler">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Directores"/>
+        <dirige rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Black_Panther"/>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</edad>
+        <fecha_nacimiento rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1986-05-23T00:00:00</fecha_nacimiento>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadounidense</nacionalidad>
+        <nombre_director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ryan Kyle Coogler</nombre_director>
+        <ocupacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Director de cine, guionista</ocupacion>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Sally_Hawkins -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Sally_Hawkins">
@@ -3488,6 +3610,20 @@ Alpha Pictures</compania_productora>
         <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sally Cecilia Hawkins</nombre_actor>
         <peso rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</peso>
         <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femenino</sexo_actor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Sam_Mendes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Sam_Mendes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Actores"/>
+        <dirige rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#1917"/>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</edad>
+        <fecha_nacimiento rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1965-08-01T00:00:00</fecha_nacimiento>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Britanica</nacionalidad>
+        <nombre_director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Samuel Alexander Mendes</nombre_director>
+        <ocupacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Director de cine y teatro</ocupacion>
     </owl:NamedIndividual>
     
 
@@ -3550,6 +3686,20 @@ Alpha Pictures</compania_productora>
         <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surcoreano</nacionalidad>
         <nombre_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Song Kang-ho</nombre_actor>
         <sexo_actor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masculino</sexo_actor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Steven_Spielberg -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Steven_Spielberg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Directores"/>
+        <dirige rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Bridge_of_Spies"/>
+        <edad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73</edad>
+        <fecha_nacimiento rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1946-12-18T00:00:00</fecha_nacimiento>
+        <nacionalidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estadounidense</nacionalidad>
+        <nombre_director rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steven Allan Spielberg</nombre_director>
+        <ocupacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guionista, director y productor de cine</ocupacion>
     </owl:NamedIndividual>
     
 
@@ -3772,6 +3922,7 @@ Alpha Pictures</compania_productora>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#1917">
         <rdf:type rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Peliculas"/>
         <es_del_genero rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Genero_Guerra_Primera_Guerra_Mundial"/>
+        <es_dirigida_por rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Sam_Mendes"/>
         <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mejor_Fotografia_2019"/>
         <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mejor_Sonido_2019"/>
         <gano rdf:resource="http://www.semanticweb.org/daniel/ontologies/2020/9/movies#Mejores_Efectos_Visuales_2019"/>
