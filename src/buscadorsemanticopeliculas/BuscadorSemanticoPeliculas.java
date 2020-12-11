@@ -5,13 +5,11 @@
  */
 package buscadorsemanticopeliculas;
 
-
-import org.apache.jena.query.ParameterizedSparqlString;
+import org.apache.jena.query.Query;
 import org.apache.jena.query.QueryExecution;
 import org.apache.jena.query.QueryExecutionFactory;
-import org.apache.jena.query.ResultSet;
-import org.apache.jena.query.ResultSetFormatter;
-
+import org.apache.jena.query.QueryFactory;
+import org.apache.jena.sparql.engine.http.QueryExceptionHTTP;
 
 /**
  *
@@ -24,30 +22,23 @@ public class BuscadorSemanticoPeliculas {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        sparqlTest();
+        System.out.println(testDBpediaConnection());
     }
-    
-    public static void sparqlTest(){
-    ParameterizedSparqlString qs = new ParameterizedSparqlString(""
-                + "prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#>\n"
-                + "PREFIX dbo:     <http://dbpedia.org/ontology/>"
-                + "\n"
-                + "select distinct ?resource ?abstract where {\n"
-                + "  ?resource rdfs:label 'Ibuprofen'@en.\n"
-                + "  ?resource dbo:abstract ?abstract.\n"
-                + "  FILTER (lang(?abstract) = 'en')}");
 
-
-        QueryExecution exec = QueryExecutionFactory.sparqlService("http://dbpedia.org/sparql", qs.asQuery());
-
-        ResultSet results = exec.execSelect();
-
-        while (results.hasNext()) {
-
-            System.out.println(results.next().get("abstract").toString());
+    public static String testDBpediaConnection() {
+        String result = "";
+        String service = "http://dbpedia.org/sparql";
+        Query query = QueryFactory.create("ASK {}");
+        QueryExecution qe = QueryExecutionFactory.sparqlService(service, query);
+        try {
+            if (qe.execAsk()) {
+                result = "Conexion establecida";
+            }
+        } catch (QueryExceptionHTTP e) {
+            result = "Fallo en la conexión";
+        } finally {
+            qe.close();
         }
-
-        ResultSetFormatter.out(results);
+        return result;
     }
-    
 }
