@@ -5,11 +5,9 @@
  */
 package buscadorsemanticopeliculas;
 
-import org.apache.jena.query.Query;
-import org.apache.jena.query.QueryExecution;
-import org.apache.jena.query.QueryExecutionFactory;
-import org.apache.jena.query.QueryFactory;
-import org.apache.jena.sparql.engine.http.QueryExceptionHTTP;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import org.json.simple.parser.ParseException;
 
 /**
  *
@@ -17,28 +15,15 @@ import org.apache.jena.sparql.engine.http.QueryExceptionHTTP;
  */
 public class BuscadorSemanticoPeliculas {
 
+
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException, FileNotFoundException, ParseException {
         // TODO code application logic here
-        System.out.println(testDBpediaConnection());
-    }
-
-    public static String testDBpediaConnection() {
-        String result = "";
-        String service = "http://dbpedia.org/sparql";
-        Query query = QueryFactory.create("ASK {}");
-        QueryExecution qe = QueryExecutionFactory.sparqlService(service, query);
-        try {
-            if (qe.execAsk()) {
-                result = "Conexion establecida";
-            }
-        } catch (QueryExceptionHTTP e) {
-            result = "Fallo en la conexión";
-        } finally {
-            qe.close();
-        }
-        return result;
+        OntologyMovies ontology = new OntologyMovies();
+        boolean result = ontology.loadData();
+        System.out.println("Ontologia cargdada: ");
+        System.out.println(result);
     }
 }

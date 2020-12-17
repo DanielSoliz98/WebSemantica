@@ -66,9 +66,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/movies-ontology#esDondeReside -->
+    <!-- http://www.semanticweb.org/ontologies/movies-ontology#esDondeNacio -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/movies-ontology#esDondeReside">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/movies-ontology#esDondeNacio">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/movies-ontology#City"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/movies-ontology#Person"/>
     </owl:ObjectProperty>
@@ -123,15 +123,6 @@
     <!-- http://www.semanticweb.org/ontologies/movies-ontology#nacioEnLaCiudad -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/movies-ontology#nacioEnLaCiudad">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/movies-ontology#Person"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/movies-ontology#City"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/movies-ontology#resideEnLaCiudad -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/movies-ontology#resideEnLaCiudad">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/movies-ontology#Person"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/movies-ontology#City"/>
     </owl:ObjectProperty>
@@ -256,16 +247,8 @@
     </owl:DatatypeProperty>
     
 
-
-    <!-- http://www.semanticweb.org/ontologies/movies-ontology#children -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/movies-ontology#children">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/movies-ontology#Person"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-    </owl:DatatypeProperty>
+   
     
-
-
     <!-- http://www.semanticweb.org/ontologies/movies-ontology#comment -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/movies-ontology#comment">
@@ -275,10 +258,10 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/movies-ontology#country -->
+    <!-- http://www.semanticweb.org/ontologies/movies-ontology#countryMovie -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/movies-ontology#country">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/movies-ontology#City"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/movies-ontology#countryMovie">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/movies-ontology#Movie"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -290,16 +273,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/movies-ontology#City"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/movies-ontology#date -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/movies-ontology#date">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/movies-ontology#Movie"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
-    </owl:DatatypeProperty>
-    
+        
 
 
     <!-- http://www.semanticweb.org/ontologies/movies-ontology#description -->
@@ -350,6 +324,23 @@
     <!-- http://www.semanticweb.org/ontologies/movies-ontology#industryStudio -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/movies-ontology#industryStudio">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/movies-ontology#Studio"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+    
+    
+     <!-- http://www.semanticweb.org/ontologies/movies-ontology#nameStudio -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/movies-ontology#nameStudio">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/movies-ontology#Studio"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+    
+    <!-- http://www.semanticweb.org/ontologies/movies-ontology#abstractStudio -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/movies-ontology#abstractStudio">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/movies-ontology#Studio"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
@@ -453,26 +444,8 @@
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
-
-
-    <!-- http://www.semanticweb.org/ontologies/movies-ontology#topicMovie -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/movies-ontology#topicMovie">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/movies-ontology#Movie"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
     
-
-
-    <!-- http://www.semanticweb.org/ontologies/movies-ontology#topicPerson -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/movies-ontology#topicPerson">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/movies-ontology#City"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
     
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
