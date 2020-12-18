@@ -208,4 +208,24 @@ public class OntologyMovies {
         model.add(ontologyModel);
         System.out.println("Ontologia Poblada.");
     }
+    
+    public String consultar(String consulta, String objetivo)
+    {
+        String res = "Lastima, no se ha podido encontrar nada relacionado.";
+        Query query;
+        QueryExecution qe;
+        ResultSet results;
+        QuerySolution qs;
+        
+        query = QueryFactory.create(consulta);
+        qe = QueryExecutionFactory.create(query, model);
+        results = qe.execSelect();
+        qs = results.nextSolution();
+        String aux = qs.getLiteral(objetivo).getString();
+        if(!aux.equals(""))
+        {
+            res = aux;
+        }
+        return res;
+    }
 }
