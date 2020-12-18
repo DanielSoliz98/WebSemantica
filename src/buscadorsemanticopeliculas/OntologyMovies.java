@@ -5,7 +5,6 @@
  */
 package buscadorsemanticopeliculas;
 
-import com.github.andrewoma.dexx.collection.Map;
 import java.util.HashMap;
 import java.util.Map;
 import org.apache.jena.ontology.Individual;
@@ -31,7 +30,7 @@ import org.json.simple.parser.ParseException;
 
 /**
  *
- * @author daniel
+ * @author
  */
 public class OntologyMovies {
 
@@ -48,7 +47,6 @@ public class OntologyMovies {
     public OntologyMovies() throws IOException {
         this.service = "http://dbpedia.org/sparql";
         this.classes = new String[]{"persons", "cities", "movies", "distributors", "studios", "personFunctions"};
-//        this.classes = new String[]{"movies"};
         this.relations = new String[]{"movies", "persons"};
         this.path = new File(".").getCanonicalPath();
         this.initData();
@@ -213,6 +211,7 @@ public class OntologyMovies {
     
     public String consultar(String consulta, String objetivo)
     {
+        System.out.println(consulta);
         String res = "Lastima, no se ha podido encontrar nada relacionado.";
         Query query;
         QueryExecution qe;
@@ -224,6 +223,7 @@ public class OntologyMovies {
         results = qe.execSelect();
         qs = results.nextSolution();
         String aux = qs.getLiteral(objetivo).getString();
+        System.out.println(aux);
         if(!aux.equals(""))
         {
             res = aux;

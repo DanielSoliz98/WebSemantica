@@ -22,6 +22,7 @@ public class BuscadorSemanticoPeliculas {
     public static void main(String[] args) throws IOException, FileNotFoundException, ParseException {
         // TODO code application logic here
         OntologyMovies ontology = new OntologyMovies();
+        new NewJFrame().setVisible(true);
         boolean result = ontology.loadData();
         System.out.println("Ontologia cargdada: ");
         System.out.println(result);
