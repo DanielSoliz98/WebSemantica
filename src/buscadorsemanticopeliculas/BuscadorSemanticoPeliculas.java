@@ -11,7 +11,7 @@ import org.json.simple.parser.ParseException;
 
 /**
  *
- * @author daniel
+ * @author Delfos
  */
 public class BuscadorSemanticoPeliculas {
 
@@ -20,10 +20,8 @@ public class BuscadorSemanticoPeliculas {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws IOException, FileNotFoundException, ParseException {
-        // TODO code application logic here
-        OntologyMovies ontology = new OntologyMovies();
-        boolean result = ontology.loadData();
-        System.out.println("Ontologia cargdada: ");
-        System.out.println(result);
+        // TODO code application logic here         
+        
+        new OntologyFrame().setVisible(true);
     }
 }
