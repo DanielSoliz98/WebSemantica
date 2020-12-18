@@ -1,0 +1,567 @@
+{
+    "persons": {
+        "nameClass": "Person",
+        "resource": "http://www.semanticweb.org/ontologies/movies-ontology#",
+        "properties": [
+            {
+                "name": "abstractPerson",
+                "type": "<http://dbpedia.org/ontology/abstract>",
+                "nameProperty": "http://www.semanticweb.org/ontologies/movies-ontology#abstractPerson",
+                "inside": false,
+                "nameInside": "",
+                "typeIndise": "",
+                "language": true
+            }, 
+            {
+                "name": "birthDate",
+                "type": "<http://dbpedia.org/ontology/birthDate>",
+                "nameProperty": "http://www.semanticweb.org/ontologies/movies-ontology#birthDate",
+                "inside": false,
+                "nameInside": "",
+                "typeIndise": "",
+                "language": false
+            },
+            {
+                "name": "comment",
+                "type": "<http://www.w3.org/2000/01/rdf-schema#comment>",
+                "nameProperty": "http://www.semanticweb.org/ontologies/movies-ontology#comment",
+                "inside": false,
+                "nameInside": "",
+                "typeIndise": "",
+                "language": true
+            },
+            {
+                "name": "description",
+                "type": "<http://purl.org/dc/terms/description>",
+                "nameProperty": "http://www.semanticweb.org/ontologies/movies-ontology#description",
+                "inside": false,
+                "nameInside": "",
+                "typeIndise": "",
+                "language": true
+            },
+            {
+                "name": "gender",
+                "type": "<http://xmlns.com/foaf/0.1/gender>",
+                "nameProperty": "http://www.semanticweb.org/ontologies/movies-ontology#gender",
+                "inside": false,
+                "nameInside": "",
+                "typeIndise": "",
+                "language": true
+            },
+            {
+                "name": "namePerson",
+                "type": "<http://xmlns.com/foaf/0.1/name>",
+                "nameProperty": "http://www.semanticweb.org/ontologies/movies-ontology#namePerson",
+                "inside": false,
+                "nameInside": "",
+                "typeIndise": "",
+                "language": true
+            },
+            {
+                "name": "surnamePerson",
+                "type": "<http://xmlns.com/foaf/0.1/surname>",
+                "nameProperty": "http://www.semanticweb.org/ontologies/movies-ontology#surnamePerson",
+                "inside": false,
+                "nameInside": "",
+                "typeIndise": "",
+                "language": true
+            },
+            {
+                "name": "gender",
+                "type": "<http://xmlns.com/foaf/0.1/gender>",
+                "nameProperty": "http://www.semanticweb.org/ontologies/movies-ontology#gender",
+                "inside": false,
+                "nameInside": "",
+                "typeIndise": "",
+                "language": true
+            }
+        ],
+        "resources": [
+            {
+                "resourceName": "Brad_Pitt",
+                "resource": "<http://dbpedia.org/resource/Brad_Pitt>"
+            },
+            {
+                "resourceName": "Madeleine_Stowe",
+                "resource": "<http://dbpedia.org/resource/Madeleine_Stowe>"
+            },
+            {
+                "resourceName": "Bruce_Willis",
+                "resource": "<http://dbpedia.org/resource/Bruce_Willis>"
+            },
+            {
+                "resourceName": "Christopher_Plummer",
+                "resource": "<http://dbpedia.org/resource/Christopher_Plummer>"
+            },
+            {
+                "resourceName": "Charles_Roven",
+                "resource": "<http://dbpedia.org/resource/Charles_Roven>"
+            },
+            {
+                "resourceName": "Paul_Buckmaster",
+                "resource": "<http://dbpedia.org/resource/Paul_Buckmaster>"
+            },
+            {
+                "resourceName": "Roger_Pratt_(cinematographer)",
+                "resource": "<http://dbpedia.org/resource/Roger_Pratt_(cinematographer)>"
+            },
+            {
+                "resourceName": "Terry_Gilliam",
+                "resource": "<http://dbpedia.org/resource/Terry_Gilliam>"
+            }
+        ]
+    },
+    "cities": {
+        "nameClass": "City",
+        "resource": "http://www.semanticweb.org/ontologies/movies-ontology#",
+        "properties": [
+            {
+                "name": "abstractCity",
+                "type": "<http://dbpedia.org/ontology/abstract>",
+                "nameProperty": "http://www.semanticweb.org/ontologies/movies-ontology#abstractCity",
+                "inside": false,
+                "nameInside": "",
+                "typeIndise": "",
+                "language": true
+            }, 
+            {
+                "name": "nameCity",
+                "type": "<http://www.w3.org/2000/01/rdf-schema#label>",
+                "nameProperty": "http://www.semanticweb.org/ontologies/movies-ontology#nameCity",
+                "inside": false,
+                "nameInside": "",
+                "typeIndise": "",
+                "language": true
+            },
+            {
+                "name": "countryCity",
+                "type": "<http://dbpedia.org/ontology/country>",
+                "nameProperty": "http://www.semanticweb.org/ontologies/movies-ontology#countryCity",
+                "inside": true,
+                "nameInside": "countryClass",
+                "typeIndise": "<http://xmlns.com/foaf/0.1/name>",
+                "language": true
+            }
+        ],
+        "resources": [
+            {
+                "resourceName": "Leicester",
+                "resource": "<http://dbpedia.org/resource/Leicester>"
+            },
+            {
+                "resourceName": "Minnesota",
+                "resource": "<http://dbpedia.org/resource/Minnesota>"
+            },
+            {
+                "resourceName": "London",
+                "resource": "<http://dbpedia.org/resource/London>"
+            },
+            {
+                "resourceName": "California",
+                "resource": "<http://dbpedia.org/resource/California>"
+            },
+            {
+                "resourceName": "Shawnee,_Oklahoma",
+                "resource": "<http://dbpedia.org/resource/Shawnee,_Oklahoma>"
+            },
+            {
+                "resourceName": "Idar-Oberstein",
+                "resource": "<http://dbpedia.org/resource/Idar-Oberstein>"
+            },
+            {
+                "resourceName": "Toronto",
+                "resource": "<http://dbpedia.org/resource/Toronto>"
+            }
+        ]
+    },
+    "movies": {
+        "nameClass": "Movies",
+        "resource": "http://www.semanticweb.org/ontologies/movies-ontology#",
+        "properties": [
+            {
+                "name": "abstractMovie",
+                "type": "<http://dbpedia.org/ontology/abstract>",
+                "nameProperty": "http://www.semanticweb.org/ontologies/movies-ontology#abstractMovie",
+                "inside": false,
+                "nameInside": "",
+                "typeIndise": "",
+                "language": true
+            },
+            {
+                "name": "countryMovie",
+                "type": "<http://dbpedia.org/property/country>",
+                "nameProperty": "http://www.semanticweb.org/ontologies/movies-ontology#countryMovie",
+                "inside": false,
+                "nameInside": "",
+                "typeIndise": "",
+                "language": false
+            },
+            {
+                "name": "groos",
+                "type": "<http://dbpedia.org/ontology/gross>",
+                "nameProperty": "http://www.semanticweb.org/ontologies/movies-ontology#gross",
+                "inside": false,
+                "nameInside": "",
+                "typeIndise": "",
+                "language": false
+            },
+            {
+                "name": "language",
+                "type": "<http://dbpedia.org/property/language>",
+                "nameProperty": "http://www.semanticweb.org/ontologies/movies-ontology#language",
+                "inside": false,
+                "nameInside": "",
+                "typeIndise": "",
+                "language": false
+            },
+            {
+                "name": "nameMovie",
+                "type": "<http://xmlns.com/foaf/0.1/name>",
+                "nameProperty": "http://www.semanticweb.org/ontologies/movies-ontology#nameMovie",
+                "inside": false,
+                "nameInside": "",
+                "typeIndise": "",
+                "language": true
+            },
+            {
+                "name": "runtime",
+                "type": "<http://dbpedia.org/ontology/runtime>",
+                "nameProperty": "http://www.semanticweb.org/ontologies/movies-ontology#runtime",
+                "inside": false,
+                "nameInside": "",
+                "typeIndise": "",
+                "language": false
+            }
+        ],
+        "resources": [
+            {
+                "resourceName": "12_Monkeys",
+                "resource": "<http://dbpedia.org/resource/12_Monkeys>"
+            }
+        ]
+    },
+    "distributors": {
+        "nameClass": "Distributor",
+        "resource": "http://www.semanticweb.org/ontologies/movies-ontology#",
+        "properties": [
+            {
+                "name": "industryDistributor",
+                "type": "<http://dbpedia.org/property/industry>",
+                "nameProperty": "http://www.semanticweb.org/ontologies/movies-ontology#industryDistributor",
+                "inside": false,
+                "nameInside": "",
+                "typeIndise": "",
+                "language": false
+            },
+            {
+                "name": "location",
+                "type": "<http://dbpedia.org/ontology/location>",
+                "nameProperty": "http://www.semanticweb.org/ontologies/movies-ontology#location",
+                "inside": true,
+                "nameInside": "country",
+                "typeIndise": "<http://xmlns.com/foaf/0.1/name>",
+                "language": true
+            },
+            {
+                "name": "nameDistributor",
+                "type": "<http://xmlns.com/foaf/0.1/name>",
+                "nameProperty": "http://www.semanticweb.org/ontologies/movies-ontology#nameDistributor",
+                "inside": false,
+                "nameInside": "",
+                "typeIndise": "",
+                "language": true
+            },
+            {
+                "name": "owner",
+                "type": "<http://dbpedia.org/ontology/owner>",
+                "nameProperty": "http://www.semanticweb.org/ontologies/movies-ontology#owner",
+                "inside": true,
+                "nameInside": "ownerClass",
+                "typeIndise": "<http://dbpedia.org/property/name>",
+                "language": false
+            }
+        ],
+        "resources": [
+            {
+                "resourceName": "Universal_Studios",
+                "resource": "<http://dbpedia.org/resource/Universal_Studios>"
+            }
+        ]
+    },
+    "studios": {
+        "nameClass": "Studio",
+        "resource": "http://www.semanticweb.org/ontologies/movies-ontology#",
+        "properties": [
+            {
+                "name": "nameStudio",
+                "type": "<http://xmlns.com/foaf/0.1/name>",
+                "nameProperty": "http://www.semanticweb.org/ontologies/movies-ontology#nameStudio",
+                "inside": false,
+                "nameInside": "",
+                "typeIndise": "",
+                "language": true
+            },
+            {
+                "name": "abstractStudio",
+                "type": "<http://dbpedia.org/ontology/abstract>",
+                "nameProperty": "http://www.semanticweb.org/ontologies/movies-ontology#abstractStudio",
+                "inside": false,
+                "nameInside": "",
+                "typeIndise": "",
+                "language": true
+            },
+            {
+                "name": "industryStudio",
+                "type": "<http://dbpedia.org/ontology/industry>",
+                "nameProperty": "http://www.semanticweb.org/ontologies/movies-ontology#industryStudio",
+                "inside": true,
+                "nameInside": "industry",
+                "typeIndise": "<http://www.w3.org/2000/01/rdf-schema#label>",
+                "language": true
+            },
+            {
+                "name": "nameStudio",
+                "type": "<http://xmlns.com/foaf/0.1/name>",
+                "nameProperty": "http://www.semanticweb.org/ontologies/movies-ontology#nameStudio",
+                "inside": false,
+                "nameInside": "",
+                "typeIndise": "",
+                "language": true
+            } 
+
+        ],
+        "resources": [
+            {
+                "resourceName": "Atlas_Entertainment",
+                "resource": "<http://dbpedia.org/resource/Atlas_Entertainment>"
+            }
+        ]
+    },
+    "personFunctions": {
+        "nameClass": "PersonFunction",
+        "resource": "http://www.semanticweb.org/ontologies/movies-ontology#",
+        "properties": [
+            {
+                "name": "title",
+                "type": "<http://dbpedia.org/ontology/title>",
+                "nameProperty": "http://www.semanticweb.org/ontologies/movies-ontology#title",
+                "inside": false,
+                "nameInside": "",
+                "typeIndise": "",
+                "language": true
+            }
+        ],
+        "resources": [
+            {
+                "resourceName": "Brad_Pitt__1",
+                "resource": "<http://dbpedia.org/resource/Brad_Pitt__1>"
+            },
+            {
+                "resourceName": "Madeleine_Stowe__1",
+                "resource": "<http://dbpedia.org/resource/Madeleine_Stowe__1>"
+            },
+            {
+                "resourceName": "Bruce_Willis__1",
+                "resource": "<http://dbpedia.org/resource/Bruce_Willis__1>"
+            },
+            {
+                "resourceName": "Christopher_Plummer__1",
+                "resource": "<http://dbpedia.org/resource/Christopher_Plummer__1>"
+            },
+            {
+                "resourceName": "Charles_Roven__1",
+                "resource": "<http://dbpedia.org/resource/Charles_Roven__1>"
+            },
+            {
+                "resourceName": "Roger_Pratt_(cinematographer)__1",
+                "resource": "<http://dbpedia.org/resource/Roger_Pratt_(cinematographer)__1>"
+            },
+            {
+                "resourceName": "Terry_Gilliam__1",
+                "resource": "<http://dbpedia.org/resource/Terry_Gilliam__1>"
+            }
+        ]
+    },
+    "relations": {
+        "movies": [
+            {
+                "key": "12_Monkeys",
+                "relation": "http://www.semanticweb.org/ontologies/movies-ontology#suCinematografoEs",
+                "reverseRelation": "http://www.semanticweb.org/ontologies/movies-ontology#esCinematografoDePelicula",
+                "valueClass": "persons",
+                "value": "Roger_Pratt_(cinematographer)"
+            },
+            {
+                "key": "12_Monkeys",
+                "relation": "http://www.semanticweb.org/ontologies/movies-ontology#suDirectorEs",
+                "reverseRelation": "http://www.semanticweb.org/ontologies/movies-ontology#esDirectorDePelicula",
+                "valueClass": "persons",
+                "value": "Terry_Gilliam"
+            },
+            {
+                "key": "12_Monkeys",
+                "relation": "http://www.semanticweb.org/ontologies/movies-ontology#suDistribuidorEs",
+                "reverseRelation": "http://www.semanticweb.org/ontologies/movies-ontology#esDistribuidorDePelicula",
+                "valueClass": "distributors",
+                "value": "Universal_Studios"
+            },
+            {
+                "key": "12_Monkeys",
+                "relation": "http://www.semanticweb.org/ontologies/movies-ontology#suCompositorEs",
+                "reverseRelation": "http://www.semanticweb.org/ontologies/movies-ontology#esCompositorDePelicula",
+                "valueClass": "persons",
+                "value": "Paul_Buckmaster"
+            },
+            {
+                "key": "12_Monkeys",
+                "relation": "http://www.semanticweb.org/ontologies/movies-ontology#suProductorEs",
+                "reverseRelation": "http://www.semanticweb.org/ontologies/movies-ontology#esProductorDePelicula",
+                "valueClass": "persons",
+                "value": "Charles_Roven"
+            },
+            {
+                "key": "12_Monkeys",
+                "relation": "http://www.semanticweb.org/ontologies/movies-ontology#esProtagonizadaPor",
+                "reverseRelation": "http://www.semanticweb.org/ontologies/movies-ontology#actuaEnLaPelicula",
+                "valueClass": "persons",
+                "value": "Brad_Pitt"
+            },
+            {
+                "key": "12_Monkeys",
+                "relation": "http://www.semanticweb.org/ontologies/movies-ontology#esProtagonizadaPor",
+                "reverseRelation": "http://www.semanticweb.org/ontologies/movies-ontology#actuaEnLaPelicula",
+                "valueClass": "persons",
+                "value": "Bruce_Willis"
+            },
+            {
+                "key": "12_Monkeys",
+                "relation": "http://www.semanticweb.org/ontologies/movies-ontology#esProtagonizadaPor",
+                "reverseRelation": "http://www.semanticweb.org/ontologies/movies-ontology#actuaEnLaPelicula",
+                "valueClass": "persons",
+                "value": "Christopher_Plummer"
+            },
+            {
+                "key": "12_Monkeys",
+                "relation": "http://www.semanticweb.org/ontologies/movies-ontology#esProtagonizadaPor",
+                "reverseRelation": "http://www.semanticweb.org/ontologies/movies-ontology#actuaEnLaPelicula",
+                "valueClass": "persons",
+                "value": "Brad_Pitt"
+            },
+            {
+                "key": "12_Monkeys",
+                "relation": "http://www.semanticweb.org/ontologies/movies-ontology#esProtagonizadaPor",
+                "reverseRelation": "http://www.semanticweb.org/ontologies/movies-ontology#actuaEnLaPelicula",
+                "valueClass": "persons",
+                "value": "Brad_Pitt"
+            }
+        ],
+        "persons": [
+            {
+                "key": "Roger_Pratt_(cinematographer)",
+                "relation": "http://www.semanticweb.org/ontologies/movies-ontology#nacioEnLaCiudad",
+                "reverseRelation": "http://www.semanticweb.org/ontologies/movies-ontology#esDondeNacio",
+                "valueClass": "cities",
+                "value": "Leicester"
+            },
+            {
+                "key": "Roger_Pratt_(cinematographer)",
+                "relation": "http://www.semanticweb.org/ontologies/movies-ontology#suOcupacionEs",
+                "reverseRelation": "http://www.semanticweb.org/ontologies/movies-ontology#esOcupacionDe",
+                "valueClass": "personFunctions",
+                "value": "Roger_Pratt_(cinematographer)__1"
+            },
+            {
+                "key": "Terry_Gilliam",
+                "relation": "http://www.semanticweb.org/ontologies/movies-ontology#nacioEnLaCiudad",
+                "reverseRelation": "http://www.semanticweb.org/ontologies/movies-ontology#esDondeNacio",
+                "valueClass": "cities",
+                "value": "Leicester"
+            },
+            {
+                "key": "Terry_Gilliam",
+                "relation": "http://www.semanticweb.org/ontologies/movies-ontology#suOcupacionEs",
+                "reverseRelation": "http://www.semanticweb.org/ontologies/movies-ontology#esOcupacionDe",
+                "valueClass": "personFunctions",
+                "value": "Terry_Gilliam__1"
+            },
+            {
+                "key": "Paul_Buckmaster",
+                "relation": "http://www.semanticweb.org/ontologies/movies-ontology#nacioEnLaCiudad",
+                "reverseRelation": "http://www.semanticweb.org/ontologies/movies-ontology#esDondeNacio",
+                "valueClass": "cities",
+                "value": "London"
+            },
+            {
+                "key": "Charles_Roven",
+                "relation": "http://www.semanticweb.org/ontologies/movies-ontology#nacioEnLaCiudad",
+                "reverseRelation": "http://www.semanticweb.org/ontologies/movies-ontology#esDondeNacio",
+                "valueClass": "cities",
+                "value": "California"
+            },
+            {
+                "key": "Charles_Roven",
+                "relation": "http://www.semanticweb.org/ontologies/movies-ontology#suOcupacionEs",
+                "reverseRelation": "http://www.semanticweb.org/ontologies/movies-ontology#esOcupacionDe",
+                "valueClass": "personFunctions",
+                "value": "Charles_Roven__1"
+            },
+            {
+                "key": "Brad_Pitt",
+                "relation": "http://www.semanticweb.org/ontologies/movies-ontology#nacioEnLaCiudad",
+                "reverseRelation": "http://www.semanticweb.org/ontologies/movies-ontology#esDondeNacio",
+                "valueClass": "cities",
+                "value": "Shawnee,_Oklahoma"
+            },
+            {
+                "key": "Brad_Pitt",
+                "relation": "http://www.semanticweb.org/ontologies/movies-ontology#suOcupacionEs",
+                "reverseRelation": "http://www.semanticweb.org/ontologies/movies-ontology#esOcupacionDe",
+                "valueClass": "personFunctions",
+                "value": "Brad_Pitt__1"
+            },
+            {
+                "key": "Madeleine_Stowe",
+                "relation": "http://www.semanticweb.org/ontologies/movies-ontology#nacioEnLaCiudad",
+                "reverseRelation": "http://www.semanticweb.org/ontologies/movies-ontology#esDondeNacio",
+                "valueClass": "cities",
+                "value": "California"
+            },
+            {
+                "key": "Madeleine_Stowe",
+                "relation": "http://www.semanticweb.org/ontologies/movies-ontology#suOcupacionEs",
+                "reverseRelation": "http://www.semanticweb.org/ontologies/movies-ontology#esOcupacionDe",
+                "valueClass": "personFunctions",
+                "value": "Madeleine_Stowe__1"
+            },
+            {
+                "key": "Bruce_Willis",
+                "relation": "http://www.semanticweb.org/ontologies/movies-ontology#nacioEnLaCiudad",
+                "reverseRelation": "http://www.semanticweb.org/ontologies/movies-ontology#esDondeNacio",
+                "valueClass": "cities",
+                "value": "Idar-Oberstein"
+            },
+            {
+                "key": "Bruce_Willis",
+                "relation": "http://www.semanticweb.org/ontologies/movies-ontology#suOcupacionEs",
+                "reverseRelation": "http://www.semanticweb.org/ontologies/movies-ontology#esOcupacionDe",
+                "valueClass": "personFunctions",
+                "value": "Bruce_Willis__1"
+            },
+            {
+                "key": "Christopher_Plummer",
+                "relation": "http://www.semanticweb.org/ontologies/movies-ontology#nacioEnLaCiudad",
+                "reverseRelation": "http://www.semanticweb.org/ontologies/movies-ontology#esDondeNacio",
+                "valueClass": "cities",
+                "value": "Toronto"
+            },
+            {
+                "key": "Christopher_Plummer",
+                "relation": "http://www.semanticweb.org/ontologies/movies-ontology#suOcupacionEs",
+                "reverseRelation": "http://www.semanticweb.org/ontologies/movies-ontology#esOcupacionDe",
+                "valueClass": "personFunctions",
+                "value": "Christopher_Plummer__1"
+            }
+
+        ]
+    }
+}
