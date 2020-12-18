@@ -30,7 +30,7 @@ import org.json.simple.parser.ParseException;
 
 /**
  *
- * @author daniel
+ * @author
  */
 public class OntologyMovies {
 
@@ -47,7 +47,6 @@ public class OntologyMovies {
     public OntologyMovies() throws IOException {
         this.service = "http://dbpedia.org/sparql";
         this.classes = new String[]{"persons", "cities", "movies", "distributors", "studios", "personFunctions"};
-//        this.classes = new String[]{"movies"};
         this.relations = new String[]{"movies", "persons"};
         this.path = new File(".").getCanonicalPath();
         this.initData();
