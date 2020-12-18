@@ -76,11 +76,7 @@ is divided into following sections:
             <and>
                 <isset property="javac.profile"/>
                 <length length="0" string="${javac.profile}" when="greater"/>
-<<<<<<< HEAD
                 <matches pattern="((1\.[89])|9)(\..*)?" string="${javac.source}"/>
-=======
-                <matches pattern="1\.[89](\..*)?" string="${javac.source}"/>
->>>>>>> 018b4efd4d7a64c097cae6f779bfb3dfb30d9ade
             </and>
         </condition>
         <condition property="do.archive">
@@ -195,16 +191,7 @@ is divided into following sections:
                 </not>
             </and>
         </condition>
-<<<<<<< HEAD
-        <condition else="false" property="javac.fork">
-            <or>
-                <istrue value="${jdkBug6558476}"/>
-                <istrue value="${javac.external.vm}"/>
-            </or>
-        </condition>
-=======
         <property name="javac.fork" value="${jdkBug6558476}"/>
->>>>>>> 018b4efd4d7a64c097cae6f779bfb3dfb30d9ade
         <property name="jar.index" value="false"/>
         <property name="jar.index.metainf" value="${jar.index}"/>
         <property name="copylibs.rebase" value="true"/>
@@ -781,11 +768,7 @@ is divided into following sections:
             <attribute default="${debug.classpath}" name="classpath"/>
             <element name="customize" optional="true"/>
             <sequential>
-<<<<<<< HEAD
-                <java classname="@{classname}" dir="${work.dir}" failonerror="${java.failonerror}" fork="true">
-=======
                 <java classname="@{classname}" dir="${work.dir}" fork="true">
->>>>>>> 018b4efd4d7a64c097cae6f779bfb3dfb30d9ade
                     <jvmarg line="${endorsed.classpath.cmd.line.arg}"/>
                     <jvmarg line="${debug-args-line}"/>
                     <jvmarg value="-Xrunjdwp:transport=${debug-transport},address=${jpda.address}"/>
@@ -812,11 +795,7 @@ is divided into following sections:
             <attribute default="jvm" name="jvm"/>
             <element name="customize" optional="true"/>
             <sequential>
-<<<<<<< HEAD
-                <java classname="@{classname}" dir="${work.dir}" failonerror="${java.failonerror}" fork="true">
-=======
                 <java classname="@{classname}" dir="${work.dir}" fork="true">
->>>>>>> 018b4efd4d7a64c097cae6f779bfb3dfb30d9ade
                     <jvmarg line="${endorsed.classpath.cmd.line.arg}"/>
                     <jvmarg value="-Dfile.encoding=${runtime.encoding}"/>
                     <redirector errorencoding="${runtime.encoding}" inputencoding="${runtime.encoding}" outputencoding="${runtime.encoding}"/>
