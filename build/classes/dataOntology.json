@@ -548,14 +548,14 @@
                 "value": "Bruce_Willis__1"
             },
             {
-                "key": "Bruce_Willis",
+                "key": "Christopher_Plummer",
                 "relation": "http://www.semanticweb.org/ontologies/movies-ontology#nacioEnLaCiudad",
                 "reverseRelation": "http://www.semanticweb.org/ontologies/movies-ontology#esDondeNacio",
                 "valueClass": "cities",
                 "value": "Toronto"
             },
             {
-                "key": "Bruce_Willis",
+                "key": "Christopher_Plummer",
                 "relation": "http://www.semanticweb.org/ontologies/movies-ontology#suOcupacionEs",
                 "reverseRelation": "http://www.semanticweb.org/ontologies/movies-ontology#esOcupacionDe",
                 "valueClass": "personFunctions",

@@ -13,7 +13,7 @@ import org.apache.jena.sparql.engine.http.QueryExceptionHTTP;
 
 /**
  *
- * @author daniel
+ *
  */
 public class DBPedia {
 
