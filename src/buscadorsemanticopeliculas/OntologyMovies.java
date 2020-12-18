@@ -5,6 +5,7 @@
  */
 package buscadorsemanticopeliculas;
 
+import com.github.andrewoma.dexx.collection.Map;
 import java.util.HashMap;
 import java.util.Map;
 import org.apache.jena.ontology.Individual;
