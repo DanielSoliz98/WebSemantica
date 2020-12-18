@@ -20,11 +20,8 @@ public class BuscadorSemanticoPeliculas {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws IOException, FileNotFoundException, ParseException {
-        // TODO code application logic here
-        OntologyMovies ontology = new OntologyMovies();
+        // TODO code application logic here         
+        
         new NewJFrame().setVisible(true);
-        boolean result = ontology.loadData();
-        System.out.println("Ontologia cargdada: ");
-        System.out.println(result);
     }
 }

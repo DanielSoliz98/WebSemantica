@@ -211,7 +211,6 @@ public class OntologyMovies {
     
     public String consultar(String consulta, String objetivo)
     {
-        System.out.println(consulta);
         String res = "Lastima, no se ha podido encontrar nada relacionado.";
         Query query;
         QueryExecution qe;
@@ -223,7 +222,7 @@ public class OntologyMovies {
         results = qe.execSelect();
         qs = results.nextSolution();
         String aux = qs.getLiteral(objetivo).getString();
-        System.out.println(aux);
+        
         if(!aux.equals(""))
         {
             res = aux;
