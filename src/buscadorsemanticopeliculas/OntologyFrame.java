@@ -12,19 +12,19 @@ import org.json.simple.parser.ParseException;
 
 /**
  *
- * @author Waves
+ * @author Delfos
  */
-public class NewJFrame extends javax.swing.JFrame {
+public class OntologyFrame extends javax.swing.JFrame {
 
     /**
      * Creates new form NewJFrame
      */
-    private OntologyMovies ont;
-    public NewJFrame() throws IOException, FileNotFoundException, ParseException {
+    private OntologyMovies ontologia;
+    public OntologyFrame() throws IOException, FileNotFoundException, ParseException {
         initComponents();
         
-        ont = new OntologyMovies();
-        ont.loadData();
+        ontologia = new OntologyMovies();
+        ontologia.loadData();
     }
 
     /**
@@ -68,7 +68,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jButton2.setToolTipText("");
         jButton2.setBorder(null);
         jButton2.setBorderPainted(false);
-        jButton2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -174,7 +174,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         String s = "";
-        s = ont.consultar(jTextArea2.getText(), jTextField2.getText());
+        s = ontologia.runQuery(jTextArea2.getText(), jTextField2.getText());
         jTextArea1.setText(s);
     }//GEN-LAST:event_jButton2ActionPerformed
 

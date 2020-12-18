@@ -11,7 +11,7 @@ import org.json.simple.parser.ParseException;
 
 /**
  *
- * @author daniel
+ * @author Delfos
  */
 public class BuscadorSemanticoPeliculas {
 
@@ -22,6 +22,6 @@ public class BuscadorSemanticoPeliculas {
     public static void main(String[] args) throws IOException, FileNotFoundException, ParseException {
         // TODO code application logic here         
         
-        new NewJFrame().setVisible(true);
+        new OntologyFrame().setVisible(true);
     }
 }

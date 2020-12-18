@@ -30,7 +30,7 @@ import org.json.simple.parser.ParseException;
 
 /**
  *
- * @author
+ * @author Delfos
  */
 public class OntologyMovies {
 
@@ -38,11 +38,11 @@ public class OntologyMovies {
     private OntModel ontologyModel;
     private boolean loadedOntologyStructure;
     private Map<String, Map<String, Individual>> data;
-    private String path;
+    private final String path;
     private JSONObject dataOntology;
-    private String[] classes;
-    private String service;
-    private String[] relations;
+    private final String[] classes;
+    private final String service;
+    private final String[] relations;
 
     public OntologyMovies() throws IOException {
         this.service = "http://dbpedia.org/sparql";
@@ -208,23 +208,20 @@ public class OntologyMovies {
         model.add(ontologyModel);
         System.out.println("Ontologia Poblada.");
     }
-    
-    public String consultar(String consulta, String objetivo)
-    {
+
+    public String runQuery(String queryStatement, String variable) {
         String res = "Lastima, no se ha podido encontrar nada relacionado.";
         Query query;
         QueryExecution qe;
         ResultSet results;
         QuerySolution qs;
-        
-        query = QueryFactory.create(consulta);
+
+        query = QueryFactory.create(queryStatement);
         qe = QueryExecutionFactory.create(query, model);
         results = qe.execSelect();
         qs = results.nextSolution();
-        String aux = qs.getLiteral(objetivo).getString();
-        
-        if(!aux.equals(""))
-        {
+        String aux = qs.getLiteral(variable).getString();
+        if (!aux.equals("")) {
             res = aux;
         }
         return res;
