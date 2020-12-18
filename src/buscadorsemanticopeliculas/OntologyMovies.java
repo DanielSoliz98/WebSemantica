@@ -211,19 +211,31 @@ public class OntologyMovies {
 
     public String runQuery(String queryStatement, String variable) {
         String res = "Lastima, no se ha podido encontrar nada relacionado.";
+
         Query query;
         QueryExecution qe;
         ResultSet results;
         QuerySolution qs;
 
-        query = QueryFactory.create(queryStatement);
-        qe = QueryExecutionFactory.create(query, model);
-        results = qe.execSelect();
-        qs = results.nextSolution();
-        String aux = qs.getLiteral(variable).getString();
-        if (!aux.equals("")) {
-            res = aux;
+        try {
+            if ("".equals(queryStatement) && "".equals(variable)) {
+                res = "Consulta y variable vacia.";
+            } else {
+                query = QueryFactory.create(queryStatement);
+                qe = QueryExecutionFactory.create(query, model);
+                results = qe.execSelect();
+                qs = results.nextSolution();
+                String aux = qs.getLiteral(variable).getString();
+                if (!aux.equals("")) {
+                    res = aux;
+                }
+            }
+            return res;
+        } catch (Exception e) {
+            System.out.println(e);
+            res = "Ocurrio un error al realizar la consulta.";
+            return res;
         }
-        return res;
+
     }
 }
